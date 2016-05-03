@@ -1,0 +1,55 @@
+{
+  "name": "rsx",
+  "version": "0.1.0",
+  "description": "A CLI tool for React Native projects",
+  "main": "./src/getCommands.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testDirectoryName": "test",
+    "collectCoverage": true,
+    "testRunner": "<rootDir>/node_modules/jest-cli/src/testRunners/jasmine/jasmine2.js"
+  },
+  "bin": {
+    "rsx": "bin/cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/react-native-contrib/rsx.git"
+  },
+  "author": "React Native Contrib Community (https://github.com/react-native-contrib)",
+  "contributors": [
+    "Hassan Khan <contact@hassankhan.me>"
+  ],
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/react-native-contrib/rsx/issues"
+  },
+  "keywords": [
+    "react-native",
+    "native-modules"
+  ],
+  "homepage": "https://github.com/react-native-contrib/rsx#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "glob": "^7.0.1",
+    "lodash": "^3.10.1",
+    "rsx-plugin-info": "^0.1.0",
+    "rsx-plugin-platforms": "^0.1.0",
+    "rsx-plugin-plugins": "^0.1.0",
+    "update-notifier": "^0.6.0",
+    "xmldoc": "^0.4.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.1.5",
+    "eslint": "^1.9.0",
+    "jest-cli": "^0.9.0-fb2",
+    "mock-fs": "^3.5.0",
+    "mock-require": "^1.2.1",
+    "rewire": "^2.5.1"
+  }
+}
