@@ -27,15 +27,6 @@ $ npm install rsx -g
 
 ## Available commands
 
-#### rsx new [name]
-Creates a new project with the specified folder name.
-
-```bash
-$ rsx new MyReactNativeApp
-```
-
-Source: https://github.com/react-native-contrib/rsx-plugin-new
-
 #### rsx plugins [action] [name]
 Valid actions are: `add`, `rm`, and `ls`.
 
