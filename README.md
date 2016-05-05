@@ -27,8 +27,26 @@ $ npm install rsx -g
 
 ## Available commands
 
+#### rsx new [project]
+Creates a new project.
+
+```bash
+$ rsx new MyNewApp
+```
+
+#### rsx platforms [action] [name]
+`action` can be one of: `add`, `rm`, and `ls`.
+`name` can be one of: `ios`, `android`.
+
+```bash
+$ rsx platforms add android
+$ rsx platforms rm android
+$ rsx platforms ls
+```
+
 #### rsx plugins [action] [name]
-Valid actions are: `add`, `rm`, and `ls`.
+`action` can be one of: `add`, `rm`, and `ls`.
+`name` can be any valid React Native plugin
 
 ```bash
 $ rsx plugins add react-native-module
