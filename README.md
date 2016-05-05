@@ -27,6 +27,8 @@ $ npm install rsx -g
 
 ## Available commands
 
+This list may be out of date - for a full list of commands, type `rsx --help`.
+
 #### rsx new [project]
 Creates a new project.
 
@@ -34,9 +36,11 @@ Creates a new project.
 $ rsx new MyNewApp
 ```
 
+Source: https://github.com/react-native-contrib/rsx-plugin-new
+
 #### rsx platforms [action] [name]
-`action` can be one of: `add`, `rm`, and `ls`.
-`name` can be one of: `ios`, `android`.
+- `action` can be one of: `add`, `rm`, and `ls`.
+- `name` can be one of: `ios`, `android`.
 
 ```bash
 $ rsx platforms add android
@@ -44,9 +48,11 @@ $ rsx platforms rm android
 $ rsx platforms ls
 ```
 
+Source: https://github.com/react-native-contrib/rsx-plugin-platforms
+
 #### rsx plugins [action] [name]
-`action` can be one of: `add`, `rm`, and `ls`.
-`name` can be any valid React Native plugin
+- `action` can be one of: `add`, `rm`, and `ls`.
+- `name` can be any valid React Native plugin
 
 ```bash
 $ rsx plugins add react-native-module
@@ -55,6 +61,15 @@ $ rsx plugins ls
 ```
 
 Source: https://github.com/react-native-contrib/rsx-plugin-plugins
+
+#### rsx run [platform]
+- `platform` can be one of: `ios`, `android`.
+
+```bash
+$ rsx run ios
+```
+
+Source: https://github.com/react-native-contrib/rsx-plugin-run
 
 #### rsx status
 Shows a list of React Native and all its components with versions.
