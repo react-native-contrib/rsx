@@ -1,0 +1,41 @@
+<nav class="navbar navbar-default navbar-fixed-top" ng-include="navbarHtml">
+</nav>
+<div role="flatdoc" class="content-root" data-ng-show="!index">
+  <div class="menubar">
+    <div class="menu section" role="flatdoc-menu"></div>
+  </div>
+  <div role="flatdoc-content" class="content"></div>
+  	<div class="footer content">
+		<div class="row">
+			<div class="col-xs-12">	
+				<span data-ng-class="{disabled: paginationLinks.prev == null}" class=" pull-left">
+					<a href="{{paginationLinks.prev}}"  class="paginationLink pull-left">Previous</a>
+				</span>
+				<span data-ng-class="{disabled: paginationLinks.next == null}" class="pull-right">
+					<a href="{{paginationLinks.next}}" class="paginationLink pull-right">Next</a>
+				</span>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="index-container" data-ng-if="index">
+	<div class="container">
+		<div class="row">
+			<h1 class="col-xs-12">
+				{{currentFolder}} ({{indexList.length - 1}} files)
+			</h1>
+		</div>	
+		<div class="row indexLinkContainer">
+			<ul class="col-xs-12 col-sm-6">
+				<li class="col-xs-12" data-ng-repeat="(key, file) in indexList" data-ng-if="file.name != 'index' && (key+1) <= indexList.length/2">
+					<a href="#/{{currentVersion}}/{{currentFolder}}/{{file.name}}" class="col-xs-12"> {{file.name}}</a>
+				</li>
+			</ul>
+			<ul  class="col-xs-12 col-sm-6">
+				<li class="col-xs-12" data-ng-repeat="(key, file) in indexList" data-ng-if="file.name != 'index' && (key+1) > indexList.length/2">
+					<a href="#/{{currentVersion}}/{{currentFolder}}/{{file.name}}" class="col-xs-12"> {{file.name}}</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>

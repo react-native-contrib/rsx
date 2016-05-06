@@ -1,0 +1,241 @@
+<html><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}</style>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width">
+  <base href="">
+  <title>Documentation</title>
+  <link rel="stylesheet" type="text/css" href="./bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+  <!-- Flatdoc theme -->
+  <link href="./bower_components/flatdoc/theme-white/style.css" rel="stylesheet">
+  <script src="./bower_components/google-code-prettify/bin/prettify.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./bower_components/google-code-prettify/bin/prettify.min.css">
+  <link rel="stylesheet" type="text/css" href="./bower_components/font-awesome/css/font-awesome.min.css">
+  <!-- DocBase -->
+  <link rel="stylesheet" type="text/css" href="./bower_components/docbase/dist/css/main.min.css">
+  <!-- Theme -->
+  <link rel="stylesheet" type="text/css" href="./styles/theme.css">
+  
+<script type="text/javascript" async="" src="http://twitter.github.io/typeahead.js/releases/latest/typeahead.bundle.js"></script></head>
+<body role="flatdoc">
+  <!-- ngView:  --><div ng-view="" class="ng-scope"><!-- ngInclude: 'html/navbar.html' --><nav class="navbar navbar-default navbar-fixed-top ng-scope" ng-include="'html/navbar.html'"><div class="container-fluid ng-scope">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a id="docs-appbase-logo" class="navbar-brand" href="#/">
+      <img src="./images/logo.png">
+    </a>
+  </div>
+  <div class="collapse navbar-collapse" id="navbar-collapse">
+    <div class="pull-left  hidden-xs" id="folder-navbar">
+      <ul class="nav navbar-nav folder-li">
+        <!-- ngRepeat: folder in map[currentVersion] --><li class="dropdown ng-scope" ng-repeat="folder in map[currentVersion]">
+          <a ng-href=./v0/quick-start/index.html class="dropdown-toggle map_folder" data-toggle="dropdown" role="button" aria-expanded="false" title="Quick Start" href=./v0/quick-start/index.html>
+            <span ng-bind="folder.label" class="link-restrict ng-binding">Quick Start</span>
+           </a>
+          <ul class="dropdown-menu">
+            <!-- ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope">
+              <a ng-href=./v0/quick-start/installation.html title="Installation and Usage" ng-bind="file.label" class="ng-binding" href=./v0/quick-start/installation.html>Installation and Usage</a>
+            </li><!-- end ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope ng-hide">
+              <a ng-href=./v0/quick-start/index.html title="index" ng-bind="file.label" class="ng-binding" href=./v0/quick-start/index.html>index</a>
+            </li><!-- end ngRepeat: file in folder.files -->
+          </ul>
+        </li><!-- end ngRepeat: folder in map[currentVersion] --><li class="dropdown ng-scope" ng-repeat="folder in map[currentVersion]">
+          <a ng-href=./v0/available-commands/index.html class="dropdown-toggle map_folder" data-toggle="dropdown" role="button" aria-expanded="false" title="Available Commands" href=./v0/available-commands/index.html>
+            <span ng-bind="folder.label" class="link-restrict ng-binding">Available Commands</span>
+           </a>
+          <ul class="dropdown-menu">
+            <!-- ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope">
+              <a ng-href=./v0/available-commands/new.html title="new" ng-bind="file.label" class="ng-binding" href=./v0/available-commands/new.html>new</a>
+            </li><!-- end ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope">
+              <a ng-href=./v0/available-commands/platforms.html title="platforms" ng-bind="file.label" class="ng-binding" href=./v0/available-commands/platforms.html>platforms</a>
+            </li><!-- end ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope">
+              <a ng-href=./v0/available-commands/plugins.html title="plugins" ng-bind="file.label" class="ng-binding" href=./v0/available-commands/plugins.html>plugins</a>
+            </li><!-- end ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope">
+              <a ng-href=./v0/available-commands/status.html title="status" ng-bind="file.label" class="ng-binding" href=./v0/available-commands/status.html>status</a>
+            </li><!-- end ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope ng-hide">
+              <a ng-href=./v0/available-commands/index.html title="index" ng-bind="file.label" class="ng-binding" href=./v0/available-commands/index.html>index</a>
+            </li><!-- end ngRepeat: file in folder.files -->
+          </ul>
+        </li><!-- end ngRepeat: folder in map[currentVersion] --><li class="dropdown ng-scope" ng-repeat="folder in map[currentVersion]">
+          <a ng-href=./v0/custom-plugins/index.html class="dropdown-toggle map_folder" data-toggle="dropdown" role="button" aria-expanded="false" title="Custom Plugins" href=./v0/custom-plugins/index.html>
+            <span ng-bind="folder.label" class="link-restrict ng-binding">Custom Plugins</span>
+           </a>
+          <ul class="dropdown-menu">
+            <!-- ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope">
+              <a ng-href=./v0/custom-plugins/custom-plugins.html title="Custom Plugins" ng-bind="file.label" class="ng-binding" href=./v0/custom-plugins/custom-plugins.html>Custom Plugins</a>
+            </li><!-- end ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope ng-hide">
+              <a ng-href=./v0/custom-plugins/index.html title="index" ng-bind="file.label" class="ng-binding" href=./v0/custom-plugins/index.html>index</a>
+            </li><!-- end ngRepeat: file in folder.files -->
+          </ul>
+        </li><!-- end ngRepeat: folder in map[currentVersion] -->
+      </ul>
+      <ul class="nav navbar-nav category-li">
+        <li class="dropdown menu-large">
+          <a class="dropdown-toggle pointer" data-toggle="dropdown">more <b class="caret"></b></a>
+          <ul class="dropdown-menu megamenu row">
+            <!-- ngRepeat: folder in map[currentVersion] --><li class="col-sm-3 megamenu-item ng-scope" ng-repeat="folder in map[currentVersion]">
+              <ul>
+                <li class="dropdown-header">
+                  <a ng-href=./v0/quick-start/index.html class="map_folder ng-binding" data-toggle="dropdown" role="button" aria-expanded="false" ng-bind="folder.label" title="Quick Start" href=./v0/quick-start/index.html>Quick Start</a>
+                </li>
+                <!-- ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope">
+                  <a ng-href=./v0/quick-start/installation.html title="Installation and Usage" ng-bind="file.label" class="ng-binding" href=./v0/quick-start/installation.html>Installation and Usage</a>
+                </li><!-- end ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope ng-hide">
+                  <a ng-href=./v0/quick-start/index.html title="index" ng-bind="file.label" class="ng-binding" href=./v0/quick-start/index.html>index</a>
+                </li><!-- end ngRepeat: file in folder.files -->
+              </ul>
+            </li><!-- end ngRepeat: folder in map[currentVersion] --><li class="col-sm-3 megamenu-item ng-scope" ng-repeat="folder in map[currentVersion]">
+              <ul>
+                <li class="dropdown-header">
+                  <a ng-href=./v0/available-commands/index.html class="map_folder ng-binding" data-toggle="dropdown" role="button" aria-expanded="false" ng-bind="folder.label" title="Available Commands" href=./v0/available-commands/index.html>Available Commands</a>
+                </li>
+                <!-- ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope">
+                  <a ng-href=./v0/available-commands/new.html title="new" ng-bind="file.label" class="ng-binding" href=./v0/available-commands/new.html>new</a>
+                </li><!-- end ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope">
+                  <a ng-href=./v0/available-commands/platforms.html title="platforms" ng-bind="file.label" class="ng-binding" href=./v0/available-commands/platforms.html>platforms</a>
+                </li><!-- end ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope">
+                  <a ng-href=./v0/available-commands/plugins.html title="plugins" ng-bind="file.label" class="ng-binding" href=./v0/available-commands/plugins.html>plugins</a>
+                </li><!-- end ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope">
+                  <a ng-href=./v0/available-commands/status.html title="status" ng-bind="file.label" class="ng-binding" href=./v0/available-commands/status.html>status</a>
+                </li><!-- end ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope ng-hide">
+                  <a ng-href=./v0/available-commands/index.html title="index" ng-bind="file.label" class="ng-binding" href=./v0/available-commands/index.html>index</a>
+                </li><!-- end ngRepeat: file in folder.files -->
+              </ul>
+            </li><!-- end ngRepeat: folder in map[currentVersion] --><li class="col-sm-3 megamenu-item ng-scope" ng-repeat="folder in map[currentVersion]">
+              <ul>
+                <li class="dropdown-header">
+                  <a ng-href=./v0/custom-plugins/index.html class="map_folder ng-binding" data-toggle="dropdown" role="button" aria-expanded="false" ng-bind="folder.label" title="Custom Plugins" href=./v0/custom-plugins/index.html>Custom Plugins</a>
+                </li>
+                <!-- ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope">
+                  <a ng-href=./v0/custom-plugins/custom-plugins.html title="Custom Plugins" ng-bind="file.label" class="ng-binding" href=./v0/custom-plugins/custom-plugins.html>Custom Plugins</a>
+                </li><!-- end ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope ng-hide">
+                  <a ng-href=./v0/custom-plugins/index.html title="index" ng-bind="file.label" class="ng-binding" href=./v0/custom-plugins/index.html>index</a>
+                </li><!-- end ngRepeat: file in folder.files -->
+              </ul>
+            </li><!-- end ngRepeat: folder in map[currentVersion] -->
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="pull-right" id="other-navs">
+      <ul class="nav navbar-nav navbar-right">
+         <li class="dropdown search-dropdown">
+          <div class="form-group search-form" data-ng-class="{'open-in':search.length &gt; 0}"><span class="twitter-typeahead" style="position: relative; display: inline-block; "><input class="search_field form-control dropdown-toggle appbase-search tt-hint" type="text" style="position: absolute; top: 0px; left: 0px; border-top-color: transparent; border-right-color: transparent; border-bottom-color: transparent; border-left-color: transparent; box-shadow: none; opacity: 1; background-attachment: scroll; background-clip: border-box; background-color: rgb(255, 255, 255); background-image: none; background-origin: padding-box; background-size:  ; background-position: 0% 0%; background-repeat: repeat repeat; " readonly="" autocomplete="off" spellcheck="false" tabindex="-1" dir="ltr"><input class="search_field form-control dropdown-toggle appbase-search tt-input" type="text" placeholder="search" autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top; background-color: transparent; "><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: 'Helvetica Neue', 'Open Sans', sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none; "></pre><div class="tt-menu" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none; "><div class="tt-dataset tt-dataset-titles"></div></div></span></div>
+        </li>
+        <li class="dropdown  hidden-xs">
+          <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+             <span ng-bind="currentVersion" class="ng-binding">v0</span> <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu version-switcher" role="menu">
+            <!-- ngRepeat: version in versions --><li ng-repeat="version in versions" class="ng-scope">
+              <a ng-href=./v0.html ng-bind="version" class="ng-binding" href=./v0.html>v0</a>
+            </li><!-- end ngRepeat: version in versions -->
+          </ul>
+        </li>
+        <!-- ngIf: docbaseOptions.method == 'github' -->
+        <!-- ngIf: docbaseOptions.method != 'github' --><li class="github-star hidden-xs ng-scope" data-ng-if="docbaseOptions.method != 'github'">
+          <iframe src="https://ghbtns.com/github-btn.html?user=react-native-contrib&amp;repo=rsx&amp;type=star&amp;count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+        </li><!-- end ngIf: docbaseOptions.method != 'github' -->
+      </ul>
+    </div>
+    <!-- Only for mobile view -->
+    <div class="mobile-nav visible-xs-block">
+      <ul class="nav navbar-nav">
+        <li class="dropdown col-xs-6 p-l-0">
+          <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+             <span ng-bind="currentVersion" class="ng-binding">v0</span> <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu version-switcher" role="menu">
+            <!-- ngRepeat: version in versions --><li ng-repeat="version in versions" class="ng-scope">
+              <a ng-href=./v0.html ng-bind="version" class="ng-binding" href=./v0.html>v0</a>
+            </li><!-- end ngRepeat: version in versions -->
+          </ul>
+        </li>
+        <!-- ngIf: docbaseOptions.method == 'github' -->
+        <!-- ngIf: docbaseOptions.method != 'github' --><li class="github-star  col-xs-6 p-r-0 ng-scope" data-ng-if="docbaseOptions.method != 'github'">
+          <iframe src="https://ghbtns.com/github-btn.html?user=react-native-contrib&amp;repo=rsx&amp;type=star&amp;count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+        </li><!-- end ngIf: docbaseOptions.method != 'github' -->
+        <li class="col-xs-12">
+          <ul class="nav navbar-nav">
+            <li class="dropdown menu-large">
+              <a class="dropdown-toggle pointer" data-toggle="dropdown">more <b class="caret"></b></a>
+              <ul class="dropdown-menu megamenu row">
+                <!-- ngRepeat: folder in map[currentVersion] --><li class="col-sm-3 megamenu-item ng-scope" ng-repeat="folder in map[currentVersion]">
+                  <ul>
+                    <li class="dropdown-header">
+                      <a ng-href=./v0/quick-start/index.html class="map_folder ng-binding" data-toggle="dropdown" role="button" aria-expanded="false" ng-bind="folder.label" title="Quick Start" href=./v0/quick-start/index.html>Quick Start</a>
+                    </li>
+                    <!-- ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope">
+                      <a ng-href=./v0/quick-start/installation.html title="Installation and Usage" ng-bind="file.label" class="ng-binding" href=./v0/quick-start/installation.html>Installation and Usage</a>
+                    </li><!-- end ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope ng-hide">
+                      <a ng-href=./v0/quick-start/index.html title="index" ng-bind="file.label" class="ng-binding" href=./v0/quick-start/index.html>index</a>
+                    </li><!-- end ngRepeat: file in folder.files -->
+                  </ul>
+                </li><!-- end ngRepeat: folder in map[currentVersion] --><li class="col-sm-3 megamenu-item ng-scope" ng-repeat="folder in map[currentVersion]">
+                  <ul>
+                    <li class="dropdown-header">
+                      <a ng-href=./v0/available-commands/index.html class="map_folder ng-binding" data-toggle="dropdown" role="button" aria-expanded="false" ng-bind="folder.label" title="Available Commands" href=./v0/available-commands/index.html>Available Commands</a>
+                    </li>
+                    <!-- ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope">
+                      <a ng-href=./v0/available-commands/new.html title="new" ng-bind="file.label" class="ng-binding" href=./v0/available-commands/new.html>new</a>
+                    </li><!-- end ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope">
+                      <a ng-href=./v0/available-commands/platforms.html title="platforms" ng-bind="file.label" class="ng-binding" href=./v0/available-commands/platforms.html>platforms</a>
+                    </li><!-- end ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope">
+                      <a ng-href=./v0/available-commands/plugins.html title="plugins" ng-bind="file.label" class="ng-binding" href=./v0/available-commands/plugins.html>plugins</a>
+                    </li><!-- end ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope">
+                      <a ng-href=./v0/available-commands/status.html title="status" ng-bind="file.label" class="ng-binding" href=./v0/available-commands/status.html>status</a>
+                    </li><!-- end ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope ng-hide">
+                      <a ng-href=./v0/available-commands/index.html title="index" ng-bind="file.label" class="ng-binding" href=./v0/available-commands/index.html>index</a>
+                    </li><!-- end ngRepeat: file in folder.files -->
+                  </ul>
+                </li><!-- end ngRepeat: folder in map[currentVersion] --><li class="col-sm-3 megamenu-item ng-scope" ng-repeat="folder in map[currentVersion]">
+                  <ul>
+                    <li class="dropdown-header">
+                      <a ng-href=./v0/custom-plugins/index.html class="map_folder ng-binding" data-toggle="dropdown" role="button" aria-expanded="false" ng-bind="folder.label" title="Custom Plugins" href=./v0/custom-plugins/index.html>Custom Plugins</a>
+                    </li>
+                    <!-- ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope">
+                      <a ng-href=./v0/custom-plugins/custom-plugins.html title="Custom Plugins" ng-bind="file.label" class="ng-binding" href=./v0/custom-plugins/custom-plugins.html>Custom Plugins</a>
+                    </li><!-- end ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope ng-hide">
+                      <a ng-href=./v0/custom-plugins/index.html title="index" ng-bind="file.label" class="ng-binding" href=./v0/custom-plugins/index.html>index</a>
+                    </li><!-- end ngRepeat: file in folder.files -->
+                  </ul>
+                </li><!-- end ngRepeat: folder in map[currentVersion] -->
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.Only for mobile view -->
+  </div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
+</nav>
+<div class="container-fluid push ng-scope">
+  <div class="row docbase-main">
+    <div class="col-xs-12 landing">
+      <h1><b>R</b>eact <b>S</b>tarter Gearbo<b>X</b></h1>
+    </div>
+    <div class="col-xs-12 list">
+      <!-- ngRepeat: folder in map[currentVersion] --><a class="col-xs-12 col-sm-6 col-md-4 col-lg-3 ng-binding ng-scope" ng-repeat="folder in map[currentVersion]" href=./v0/quick-start/index.html ng-bind="folder.label">Quick Start</a><!-- end ngRepeat: folder in map[currentVersion] --><a class="col-xs-12 col-sm-6 col-md-4 col-lg-3 ng-binding ng-scope" ng-repeat="folder in map[currentVersion]" href=./v0/available-commands/index.html ng-bind="folder.label">Available Commands</a><!-- end ngRepeat: folder in map[currentVersion] --><a class="col-xs-12 col-sm-6 col-md-4 col-lg-3 ng-binding ng-scope" ng-repeat="folder in map[currentVersion]" href=./v0/custom-plugins/index.html ng-bind="folder.label">Custom Plugins</a><!-- end ngRepeat: folder in map[currentVersion] -->
+		</div>
+  </div>
+   <div class="row powered-by">
+    <div class="col-xs-12">
+      <a href="https://github.com/appbaseio/Docbase">
+        <img src="./images/PoweredByDocbase.png" class="img-responsive pull-right" alt="Powered by docbase">
+       </a>
+    </div>
+  </div>
+</div>
+</div>
+
+ <script type="text/javascript" src="./docbase-config.js"></script>
+  <script type="text/javascript" src="./bower_components/docbase/dist/js/main.unique.js"></script>
+
+
+
+</body><script>$(function(){  $('.search-form').searchAppbase('./search-index.json', true); $(document).ready(function(){ setTimeout(function(){ $('#folder-navbar').megaMenu(); },200); }); });</script></html>

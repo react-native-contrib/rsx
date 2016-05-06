@@ -1,0 +1,19 @@
+{
+  "name": "awesome.md",
+  "authors": [],
+  "description": "Documentation project powered by docbase",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "docbase": "*"
+  }
+}
