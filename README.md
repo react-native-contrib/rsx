@@ -4,9 +4,9 @@
 
 ![npm version](https://img.shields.io/npm/v/rsx.svg)
 ![dependencies](https://img.shields.io/david/react-native-contrib/rsx.svg)
-<!-- [![Code Climate](https://codeclimate.com/github/rnpm/rnpm/badges/gpa.svg)](https://codeclimate.com/github/rnpm/rnpm)
-[![Test Coverage](https://codeclimate.com/github/rnpm/rnpm/badges/coverage.svg)](https://codeclimate.com/github/rnpm/rnpm/coverage)
-[![Circle CI](https://img.shields.io/circleci/project/rnpm/rnpm/master.svg)](https://circleci.com/gh/rnpm/rnpm) -->
+[![Code Climate](https://codeclimate.com/github/react-native-contrib/rsx/badges/gpa.svg)](https://codeclimate.com/github/react-native-contrib/rsx)
+<!-- [![Test Coverage](https://codeclimate.com/github/react-native-contrib/rsx/badges/coverage.svg)](https://codeclimate.com/github/react-native-contrib/rsx/coverage) -->
+<!-- [![Circle CI](https://img.shields.io/circleci/project/rnpm/rnpm/master.svg)](https://circleci.com/gh/rnpm/rnpm) -->
 
 **React Starter eXtension** - a CLI tool built to ease your daily React Native development.
 

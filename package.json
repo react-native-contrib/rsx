@@ -36,15 +36,13 @@
   "homepage": "https://github.com/react-native-contrib/rsx#readme",
   "dependencies": {
     "commander": "^2.9.0",
-    "glob": "^7.0.1",
     "lodash": "^3.10.1",
     "rsx-plugin-new": "^0.1.0",
     "rsx-plugin-platforms": "^0.1.1",
     "rsx-plugin-plugins": "^0.1.1",
     "rsx-plugin-run": "^0.1.1",
     "rsx-plugin-status": "^0.1.1",
-    "update-notifier": "^0.6.0",
-    "xmldoc": "^0.4.0"
+    "update-notifier": "^0.6.0"
   },
   "devDependencies": {
     "babel-eslint": "^4.1.5",
