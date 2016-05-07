@@ -15,7 +15,7 @@
   <link rel="stylesheet" type="text/css" href="./bower_components/docbase/dist/css/main.min.css">
   <!-- Theme -->
   <link rel="stylesheet" type="text/css" href="./styles/theme.css">
-  
+
 <script type="text/javascript" async="" src="http://twitter.github.io/typeahead.js/releases/latest/typeahead.bundle.js"></script></head>
 <body role="flatdoc" class="no-literate">
   <!-- ngView:  --><div ng-view="" class="ng-scope"><!-- ngInclude: navbarHtml --><nav class="navbar navbar-default navbar-fixed-top ng-scope" ng-include="navbarHtml"><div class="container-fluid ng-scope">
@@ -45,8 +45,8 @@
             </li><!-- end ngRepeat: file in folder.files -->
           </ul>
         </li><!-- end ngRepeat: folder in map[currentVersion] --><li class="dropdown ng-scope" ng-repeat="folder in map[currentVersion]" style="display: none; ">
-          <a ng-href=./v0/available-commands/index.html class="dropdown-toggle map_folder" data-toggle="dropdown" role="button" aria-expanded="false" title="Available Commands" href=./v0/available-commands/index.html>
-            <span ng-bind="folder.label" class="link-restrict ng-binding">Available Commands</span>
+          <a ng-href=./v0/available-commands/index.html class="dropdown-toggle map_folder" data-toggle="dropdown" role="button" aria-expanded="false" title="Commands" href=./v0/available-commands/index.html>
+            <span ng-bind="folder.label" class="link-restrict ng-binding">Commands</span>
            </a>
           <ul class="dropdown-menu">
             <!-- ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope">
@@ -92,7 +92,7 @@
             </li><!-- end ngRepeat: folder in map[currentVersion] --><li class="col-sm-3 megamenu-item ng-scope" ng-repeat="folder in map[currentVersion]">
               <ul>
                 <li class="dropdown-header">
-                  <a ng-href=./v0/available-commands/index.html class="map_folder ng-binding" data-toggle="dropdown" role="button" aria-expanded="false" ng-bind="folder.label" title="Available Commands" href=./v0/available-commands/index.html>Available Commands</a>
+                  <a ng-href=./v0/available-commands/index.html class="map_folder ng-binding" data-toggle="dropdown" role="button" aria-expanded="false" ng-bind="folder.label" title="Commands" href=./v0/available-commands/index.html>Commands</a>
                 </li>
                 <!-- ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope">
                   <a ng-href=./v0/available-commands/new.html title="new" ng-bind="file.label" class="ng-binding" href=./v0/available-commands/new.html>new</a>
@@ -179,7 +179,7 @@
                 </li><!-- end ngRepeat: folder in map[currentVersion] --><li class="col-sm-3 megamenu-item ng-scope" ng-repeat="folder in map[currentVersion]">
                   <ul>
                     <li class="dropdown-header">
-                      <a ng-href=./v0/available-commands/index.html class="map_folder ng-binding" data-toggle="dropdown" role="button" aria-expanded="false" ng-bind="folder.label" title="Available Commands" href=./v0/available-commands/index.html>Available Commands</a>
+                      <a ng-href=./v0/available-commands/index.html class="map_folder ng-binding" data-toggle="dropdown" role="button" aria-expanded="false" ng-bind="folder.label" title="Commands" href=./v0/available-commands/index.html>Commands</a>
                     </li>
                     <!-- ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope">
                       <a ng-href=./v0/available-commands/new.html title="new" ng-bind="file.label" class="ng-binding" href=./v0/available-commands/new.html>new</a>
@@ -234,7 +234,7 @@
 </div>
 <!-- ngIf: index --></div>
 
- <script type="text/javascript" src="./docbase-config.js"></script>
+  <script type="text/javascript" src="./docbase-config.js"></script>
   <script type="text/javascript" src="./bower_components/docbase/dist/js/main.unique.js"></script>
 
 

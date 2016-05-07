@@ -32,7 +32,7 @@ var docbaseConfig = {
       },
       {
         "name": "available-commands",
-        "label": "Available Commands",
+        "label": "Commands",
         "files": [
           {
             "name": "new",
