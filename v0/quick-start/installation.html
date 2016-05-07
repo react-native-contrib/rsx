@@ -33,7 +33,7 @@
   <div class="collapse navbar-collapse" id="navbar-collapse">
     <div class="pull-left  hidden-xs" id="folder-navbar">
       <ul class="nav navbar-nav folder-li">
-        <!-- ngRepeat: folder in map[currentVersion] --><li class="dropdown ng-scope" ng-repeat="folder in map[currentVersion]" style="display: none; ">
+        <!-- ngRepeat: folder in map[currentVersion] --><li class="dropdown ng-scope" ng-repeat="folder in map[currentVersion]">
           <a ng-href=./v0/quick-start/index.html class="dropdown-toggle map_folder" data-toggle="dropdown" role="button" aria-expanded="false" title="Quick Start" href=./v0/quick-start/index.html>
             <span ng-bind="folder.label" class="link-restrict ng-binding">Quick Start</span>
            </a>
@@ -44,7 +44,7 @@
               <a ng-href=./v0/quick-start/index.html title="index" ng-bind="file.label" class="ng-binding" href=./v0/quick-start/index.html>index</a>
             </li><!-- end ngRepeat: file in folder.files -->
           </ul>
-        </li><!-- end ngRepeat: folder in map[currentVersion] --><li class="dropdown ng-scope" ng-repeat="folder in map[currentVersion]" style="display: none; ">
+        </li><!-- end ngRepeat: folder in map[currentVersion] --><li class="dropdown ng-scope" ng-repeat="folder in map[currentVersion]">
           <a ng-href=./v0/available-commands/index.html class="dropdown-toggle map_folder" data-toggle="dropdown" role="button" aria-expanded="false" title="Available Commands" href=./v0/available-commands/index.html>
             <span ng-bind="folder.label" class="link-restrict ng-binding">Available Commands</span>
            </a>
@@ -61,7 +61,7 @@
               <a ng-href=./v0/available-commands/index.html title="index" ng-bind="file.label" class="ng-binding" href=./v0/available-commands/index.html>index</a>
             </li><!-- end ngRepeat: file in folder.files -->
           </ul>
-        </li><!-- end ngRepeat: folder in map[currentVersion] --><li class="dropdown ng-scope" ng-repeat="folder in map[currentVersion]" style="display: none; ">
+        </li><!-- end ngRepeat: folder in map[currentVersion] --><li class="dropdown ng-scope" ng-repeat="folder in map[currentVersion]">
           <a ng-href=./v0/custom-plugins/index.html class="dropdown-toggle map_folder" data-toggle="dropdown" role="button" aria-expanded="false" title="Custom Plugins" href=./v0/custom-plugins/index.html>
             <span ng-bind="folder.label" class="link-restrict ng-binding">Custom Plugins</span>
            </a>
@@ -74,7 +74,7 @@
           </ul>
         </li><!-- end ngRepeat: folder in map[currentVersion] -->
       </ul>
-      <ul class="nav navbar-nav category-li" style="display: block; ">
+      <ul class="nav navbar-nav category-li">
         <li class="dropdown menu-large">
           <a class="dropdown-toggle pointer" data-toggle="dropdown">more <b class="caret"></b></a>
           <ul class="dropdown-menu megamenu row">
@@ -125,7 +125,7 @@
     <div class="pull-right" id="other-navs">
       <ul class="nav navbar-nav navbar-right">
          <li class="dropdown search-dropdown">
-          <div class="form-group search-form" data-ng-class="{'open-in':search.length &gt; 0}" style="right: 50px; "><input class="search_field form-control dropdown-toggle appbase-search" type="text" placeholder="search"></div>
+          <div class="form-group search-form" data-ng-class="{'open-in':search.length &gt; 0}"><input class="search_field form-control dropdown-toggle appbase-search" type="text" placeholder="search"></div>
         </li>
         <li class="dropdown  hidden-xs">
           <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -218,12 +218,14 @@
   <div class="menubar fixed">
     <div class="menu section" role="flatdoc-menu"><ul><li id="root-item" class="level-0"><ul class="level-1" id="root-list"><li id="quick-start-item" class="level-1"><a id="quick-start-link" href="./v0/quick-start/installation.html#quick-start" class="level-1" pref="#quick-start">Quick start</a><ul class="level-2" id="quick-start-list"><li id="quick-start-introduction-item" class="level-2"><a id="quick-start-introduction-link" href="./v0/quick-start/installation.html#quick-start-introduction" class="level-2" pref="#quick-start-introduction">Introduction</a></li><li id="quick-start-getting-started-item" class="level-2"><a id="quick-start-getting-started-link" href="./v0/quick-start/installation.html#quick-start-getting-started" class="level-2" pref="#quick-start-getting-started">Getting Started</a></li><li id="quick-start-usage-item" class="level-2"><a id="quick-start-usage-link" href="./v0/quick-start/installation.html#quick-start-usage" class="level-2" pref="#quick-start-usage">Usage</a><ul class="level-3" id="quick-start-usage-list"><li id="quick-start-usage-creating-a-new-project-item" class="level-3"><a id="quick-start-usage-creating-a-new-project-link" href="./v0/quick-start/installation.html#quick-start-usage-creating-a-new-project" class="level-3" pref="#quick-start-usage-creating-a-new-project">Creating a new project</a></li><li id="quick-start-usage-running-a-project-item" class="level-3"><a id="quick-start-usage-running-a-project-link" href="./v0/quick-start/installation.html#quick-start-usage-running-a-project" class="level-3" pref="#quick-start-usage-running-a-project">Running a project</a></li></ul></li></ul></li></ul></li></ul></div>
   </div>
-  <div role="flatdoc-content" class="content"><div class="extra_container"></div><div class="clearFix"></div><h1 id="quick-start">Quick start</h1><p>This is a quick start guide for getting up and running with <code>rsx</code>.</p><h2 id="quick-start-introduction">Introduction</h2><p><a href="https://github.com/appbaseio/Docbase">Docbase</a> turns your <strong>markdown</strong> documentation project into a collaborative HTML site. It:</p><p><a href="https://github.com/react-native-contrib/rsx">rsx</a> is a CLI tool built to ease your daily React Native development. Out of the box, it can:</p><ul>
+  <div role="flatdoc-content" class="content"><div class="extra_container"></div><div class="clearFix"></div><h1 id="quick-start">Quick start</h1><p>This is a quick start guide for getting up and running with <code>rsx</code>.</p><h2 id="quick-start-introduction">Introduction</h2><p><a href="https://github.com/react-native-contrib/rsx">rsx</a> is a CLI tool built to ease your daily React Native development. Out of the box, it can:</p><ul>
 <li>create new React Native projects</li>
 <li>add, remove and list platform-specific projects using Yeoman generators</li>
 <li>add, remove and list plugins - using the awesome <code>rnpm</code> under the hood</li>
+<li>build and run a project for a given platform</li>
 <li>get the status of installed React Native dependencies</li>
 <li>easily extensible</li>
+<li>is community-owned</li>
 <li>is MIT licensed</li>
 </ul><h2 id="quick-start-getting-started">Getting Started</h2><p>Assuming you already have <code>npm</code> and <code>rnpm</code> installed, run:</p><pre><code class="lang-bash prettyprint prettyprinted" style=""><span class="pln">$ npm install </span><span class="pun">-</span><span class="pln">g rsx</span></code></pre><h2 id="quick-start-usage">Usage</h2><h3 id="quick-start-usage-creating-a-new-project">Creating a new project</h3><p>Creating a new React Native project is as simple as:</p><pre><code class="lang-bash prettyprint prettyprinted" style=""><span class="pln">$ rsx new </span><span class="typ">AwesomeApp</span></code></pre><p>This will create a folder called <code>AwesomeApp</code> within the current directory, and then create a React Native project with iOS and Android projects.</p><h3 id="quick-start-usage-running-a-project">Running a project</h3><pre><code class="lang-bash prettyprint prettyprinted" style=""><span class="pln">$ rsx run ios
 $ rsx run android</span></code></pre></div>

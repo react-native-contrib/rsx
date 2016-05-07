@@ -33,7 +33,7 @@
   <div class="collapse navbar-collapse" id="navbar-collapse">
     <div class="pull-left  hidden-xs" id="folder-navbar">
       <ul class="nav navbar-nav folder-li">
-        <!-- ngRepeat: folder in map[currentVersion] --><li class="dropdown ng-scope" ng-repeat="folder in map[currentVersion]">
+        <!-- ngRepeat: folder in map[currentVersion] --><li class="dropdown ng-scope" ng-repeat="folder in map[currentVersion]" style="display: none; ">
           <a ng-href=./v0/quick-start/index.html class="dropdown-toggle map_folder" data-toggle="dropdown" role="button" aria-expanded="false" title="Quick Start" href=./v0/quick-start/index.html>
             <span ng-bind="folder.label" class="link-restrict ng-binding">Quick Start</span>
            </a>
@@ -44,7 +44,7 @@
               <a ng-href=./v0/quick-start/index.html title="index" ng-bind="file.label" class="ng-binding" href=./v0/quick-start/index.html>index</a>
             </li><!-- end ngRepeat: file in folder.files -->
           </ul>
-        </li><!-- end ngRepeat: folder in map[currentVersion] --><li class="dropdown ng-scope" ng-repeat="folder in map[currentVersion]">
+        </li><!-- end ngRepeat: folder in map[currentVersion] --><li class="dropdown ng-scope" ng-repeat="folder in map[currentVersion]" style="display: none; ">
           <a ng-href=./v0/available-commands/index.html class="dropdown-toggle map_folder" data-toggle="dropdown" role="button" aria-expanded="false" title="Available Commands" href=./v0/available-commands/index.html>
             <span ng-bind="folder.label" class="link-restrict ng-binding">Available Commands</span>
            </a>
@@ -61,7 +61,7 @@
               <a ng-href=./v0/available-commands/index.html title="index" ng-bind="file.label" class="ng-binding" href=./v0/available-commands/index.html>index</a>
             </li><!-- end ngRepeat: file in folder.files -->
           </ul>
-        </li><!-- end ngRepeat: folder in map[currentVersion] --><li class="dropdown ng-scope" ng-repeat="folder in map[currentVersion]">
+        </li><!-- end ngRepeat: folder in map[currentVersion] --><li class="dropdown ng-scope" ng-repeat="folder in map[currentVersion]" style="display: none; ">
           <a ng-href=./v0/custom-plugins/index.html class="dropdown-toggle map_folder" data-toggle="dropdown" role="button" aria-expanded="false" title="Custom Plugins" href=./v0/custom-plugins/index.html>
             <span ng-bind="folder.label" class="link-restrict ng-binding">Custom Plugins</span>
            </a>
@@ -74,7 +74,7 @@
           </ul>
         </li><!-- end ngRepeat: folder in map[currentVersion] -->
       </ul>
-      <ul class="nav navbar-nav category-li">
+      <ul class="nav navbar-nav category-li" style="display: block; ">
         <li class="dropdown menu-large">
           <a class="dropdown-toggle pointer" data-toggle="dropdown">more <b class="caret"></b></a>
           <ul class="dropdown-menu megamenu row">
@@ -125,7 +125,7 @@
     <div class="pull-right" id="other-navs">
       <ul class="nav navbar-nav navbar-right">
          <li class="dropdown search-dropdown">
-          <div class="form-group search-form" data-ng-class="{'open-in':search.length &gt; 0}"><input class="search_field form-control dropdown-toggle appbase-search" type="text" placeholder="search"></div>
+          <div class="form-group search-form" data-ng-class="{'open-in':search.length &gt; 0}" style="right: 50px; "><input class="search_field form-control dropdown-toggle appbase-search" type="text" placeholder="search"></div>
         </li>
         <li class="dropdown  hidden-xs">
           <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -218,7 +218,7 @@
   <div class="menubar fixed">
     <div class="menu section" role="flatdoc-menu"><ul><li id="root-item" class="level-0"><ul class="level-1" id="root-list"><li id="new-project-item" class="level-1"><a id="new-project-link" href="./v0/available-commands/new.html#new-project" class="level-1" pref="#new-project">new [project]</a><ul class="level-2" id="new-project-list"><li id="new-project-arguments-item" class="level-2"><a id="new-project-arguments-link" href="./v0/available-commands/new.html#new-project-arguments" class="level-2" pref="#new-project-arguments">Arguments</a></li><li id="new-project-example-item" class="level-2"><a id="new-project-example-link" href="./v0/available-commands/new.html#new-project-example" class="level-2" pref="#new-project-example">Example</a></li></ul></li></ul></li></ul></div>
   </div>
-  <div role="flatdoc-content" class="content"><div class="extra_container"></div><div class="clearFix"></div><h1 id="new-project">new [project]</h1><h2 id="new-project-arguments">Arguments</h2><ul>
+  <div role="flatdoc-content" class="content"><div class="extra_container"></div><div class="clearFix"></div><h1 id="new-project">new [project]</h1><p>Creates a new project.</p><h2 id="new-project-arguments">Arguments</h2><ul>
 <li><strong>project</strong>: The name of the project. This will be used as the folder name as well.</li>
 </ul><h2 id="new-project-example">Example</h2><pre><code class="lang-bash prettyprint prettyprinted" style=""><span class="pln">$ rsx new </span><span class="typ">MyNewApp</span></code></pre><p>Source: <a href="https://github.com/react-native-contrib/rsx-plugin-new">https://github.com/react-native-contrib/rsx-plugin-new</a></p></div>
   	<div class="footer content">

@@ -1,5 +1,7 @@
 # new [project]
 
+Creates a new project.
+
 ## Arguments
 
 - **project**: The name of the project. This will be used as the folder name as well.

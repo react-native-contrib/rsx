@@ -1,5 +1,7 @@
 # status
 
+Get dependencies' status for the current React Native project.
+
 ## Example
 
 ```bash

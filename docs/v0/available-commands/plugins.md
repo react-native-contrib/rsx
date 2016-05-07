@@ -1,5 +1,7 @@
 # plugins [action] [plugin]
 
+Interact with native dependencies.
+
 ## Arguments
 
 - **action**: Can be one of: `add`, `rm`, and `ls`.

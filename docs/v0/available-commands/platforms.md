@@ -1,5 +1,7 @@
 # platforms [action] [platform]
 
+Interact with platform-specific projects.
+
 ## Arguments
 
 - **action**: Can be one of: `add`, `rm`, and `ls`.

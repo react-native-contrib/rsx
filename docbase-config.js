@@ -8,11 +8,11 @@ var docbaseConfig = {
     "path": "docs"
   },
   "github": {
-    "user": "react-native-contrib",
-    "repo": "rsx",
+    "user": "",
+    "repo": "",
     "path": "",
-    "branch": "gh-pages",
-    "access_token": "ZmYzYTllMjA2ZGQzMzJlZjNjMDc3YTMxNDk3ODQ1MTAxOTE3ZmJkYg=="
+    "branch": "",
+    "access_token": "ODM5ZjE4ZmE0NzRmNzY5ZmE3MzIyMTQzM2Y0MWJkYmYyZTJkMjM4ZQ=="
   },
   "indexHtml": "./html/main.html",
   "flatdocHtml": "./bower_components/docbase/html/flatdoc.html",
