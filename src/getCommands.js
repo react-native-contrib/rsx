@@ -9,7 +9,7 @@ const findPlugins = require('./findPlugins');
  */
 module.exports = function getCommands() {
   const rsxRoot = process.env['RSX_PROJECT_ROOT'] = path.join(__dirname, '..');
-  const appRoot = process.env['RN_PROJECT_ROOT'] = process.cwd();
+  const appRoot = process.env.RN_PROJECT_ROOT = process.cwd();
 
   return uniq(
     flattenDeep([
