@@ -37,9 +37,9 @@
   "dependencies": {
     "commander": "^2.9.0",
     "lodash": "^3.10.1",
-    "rsx-plugin-new": "^0.1.2",
+    "rsx-plugin-new": "^0.1.3",
     "rsx-plugin-platforms": "^0.1.3",
-    "rsx-plugin-plugins": "^0.1.3",
+    "rsx-plugin-plugins": "^0.1.4",
     "rsx-plugin-run": "^0.1.3",
     "rsx-plugin-status": "^0.1.4",
     "update-notifier": "^0.6.0"
