@@ -216,47 +216,48 @@
 </nav>
 <div role="flatdoc" class="content-root ng-scope ng-hide" data-ng-show="!index">
   <div class="menubar">
-    <div class="menu section" role="flatdoc-menu"></div>
+  <div class="menu section" role="flatdoc-menu"></div>
   </div>
   <div role="flatdoc-content" class="content"></div>
-  	<div class="footer content">
-		<div class="row">
-			<div class="col-xs-12">	
-				<span data-ng-class="{disabled: paginationLinks.prev == null}" class="pull-left disabled">
-					<a href="" class="paginationLink pull-left">Previous</a>
-				</span>
-				<span data-ng-class="{disabled: paginationLinks.next == null}" class="pull-right disabled">
-					<a href="" class="paginationLink pull-right">Next</a>
-				</span>
-			</div>
-		</div>
-	</div>
+  <div class="footer content">
+    <div class="row">
+      <div class="col-xs-12">
+        <span data-ng-class="{disabled: paginationLinks.prev == null}" class="pull-left disabled">
+          <a href="" class="paginationLink pull-left">Previous</a>
+        </span>
+        <span data-ng-class="{disabled: paginationLinks.next == null}" class="pull-right disabled">
+          <a href="" class="paginationLink pull-right">Next</a>
+        </span>
+      </div>
+    </div>
+  </div>
 </div>
 <!-- ngIf: index --><div class="index-container ng-scope" data-ng-if="index">
-	<div class="container">
-		<div class="row">
-			<h1 class="col-xs-12 ng-binding">
-				available-commands (4 files)
-			</h1>
-		</div>	
-		<div class="row indexLinkContainer">
-			<ul class="col-xs-12 col-sm-6">
-				<!-- ngRepeat: (key, file) in indexList --><!-- ngIf: file.name != 'index' && (key+1) <= indexList.length/2 --><li class="col-xs-12 ng-scope" data-ng-repeat="(key, file) in indexList" data-ng-if="file.name != 'index' &amp;&amp; (key+1) &lt;= indexList.length/2">
-					<a href=./v0/available-commands/new.html class="col-xs-12 ng-binding"> new</a>
-				</li><!-- end ngIf: file.name != 'index' && (key+1) <= indexList.length/2 --><!-- end ngRepeat: (key, file) in indexList --><!-- ngIf: file.name != 'index' && (key+1) <= indexList.length/2 --><li class="col-xs-12 ng-scope" data-ng-repeat="(key, file) in indexList" data-ng-if="file.name != 'index' &amp;&amp; (key+1) &lt;= indexList.length/2">
-					<a href=./v0/available-commands/platforms.html class="col-xs-12 ng-binding"> platforms</a>
-				</li><!-- end ngIf: file.name != 'index' && (key+1) <= indexList.length/2 --><!-- end ngRepeat: (key, file) in indexList --><!-- ngIf: file.name != 'index' && (key+1) <= indexList.length/2 --><!-- end ngRepeat: (key, file) in indexList --><!-- ngIf: file.name != 'index' && (key+1) <= indexList.length/2 --><!-- end ngRepeat: (key, file) in indexList --><!-- ngIf: file.name != 'index' && (key+1) <= indexList.length/2 --><!-- end ngRepeat: (key, file) in indexList -->
-			</ul>
-			<ul class="col-xs-12 col-sm-6">
-				<!-- ngRepeat: (key, file) in indexList --><!-- ngIf: file.name != 'index' && (key+1) > indexList.length/2 --><!-- end ngRepeat: (key, file) in indexList --><!-- ngIf: file.name != 'index' && (key+1) > indexList.length/2 --><!-- end ngRepeat: (key, file) in indexList --><!-- ngIf: file.name != 'index' && (key+1) > indexList.length/2 --><li class="col-xs-12 ng-scope" data-ng-repeat="(key, file) in indexList" data-ng-if="file.name != 'index' &amp;&amp; (key+1) &gt; indexList.length/2">
-					<a href=./v0/available-commands/plugins.html class="col-xs-12 ng-binding"> plugins</a>
-				</li><!-- end ngIf: file.name != 'index' && (key+1) > indexList.length/2 --><!-- end ngRepeat: (key, file) in indexList --><!-- ngIf: file.name != 'index' && (key+1) > indexList.length/2 --><li class="col-xs-12 ng-scope" data-ng-repeat="(key, file) in indexList" data-ng-if="file.name != 'index' &amp;&amp; (key+1) &gt; indexList.length/2">
-					<a href=./v0/available-commands/status.html class="col-xs-12 ng-binding"> status</a>
-				</li><!-- end ngIf: file.name != 'index' && (key+1) > indexList.length/2 --><!-- end ngRepeat: (key, file) in indexList --><!-- ngIf: file.name != 'index' && (key+1) > indexList.length/2 --><!-- end ngRepeat: (key, file) in indexList -->
-			</ul>
-		</div>
-	</div>
-</div><!-- end ngIf: index --></div>
+  <div class="container">
+    <div class="row">
+      <h1 class="col-xs-12 ng-binding">
+        available-commands (4 files)
+      </h1>
+    </div>
+    <div class="row indexLinkContainer">
+      <ul class="col-xs-12 col-sm-6">
+        <!-- ngRepeat: (key, file) in indexList --><!-- ngIf: file.name != 'index' && (key+1) <= indexList.length/2 --><li class="col-xs-12 ng-scope" data-ng-repeat="(key, file) in indexList" data-ng-if="file.name != 'index' &amp;&amp; (key+1) &lt;= indexList.length/2">
+          <a href=./v0/available-commands/new.html class="col-xs-12 ng-binding"> new</a>
+        </li><!-- end ngIf: file.name != 'index' && (key+1) <= indexList.length/2 --><!-- end ngRepeat: (key, file) in indexList --><!-- ngIf: file.name != 'index' && (key+1) <= indexList.length/2 --><li class="col-xs-12 ng-scope" data-ng-repeat="(key, file) in indexList" data-ng-if="file.name != 'index' &amp;&amp; (key+1) &lt;= indexList.length/2">
+          <a href=./v0/available-commands/platforms.html class="col-xs-12 ng-binding"> platforms</a>
+        </li><!-- end ngIf: file.name != 'index' && (key+1) <= indexList.length/2 --><!-- end ngRepeat: (key, file) in indexList --><!-- ngIf: file.name != 'index' && (key+1) <= indexList.length/2 --><!-- end ngRepeat: (key, file) in indexList --><!-- ngIf: file.name != 'index' && (key+1) <= indexList.length/2 --><!-- end ngRepeat: (key, file) in indexList --><!-- ngIf: file.name != 'index' && (key+1) <= indexList.length/2 --><!-- end ngRepeat: (key, file) in indexList -->
+      </ul>
+      <ul class="col-xs-12 col-sm-6">
+        <!-- ngRepeat: (key, file) in indexList --><!-- ngIf: file.name != 'index' && (key+1) > indexList.length/2 --><!-- end ngRepeat: (key, file) in indexList --><!-- ngIf: file.name != 'index' && (key+1) > indexList.length/2 --><!-- end ngRepeat: (key, file) in indexList --><!-- ngIf: file.name != 'index' && (key+1) > indexList.length/2 --><li class="col-xs-12 ng-scope" data-ng-repeat="(key, file) in indexList" data-ng-if="file.name != 'index' &amp;&amp; (key+1) &gt; indexList.length/2">
+          <a href=./v0/available-commands/plugins.html class="col-xs-12 ng-binding"> plugins</a>
+        </li><!-- end ngIf: file.name != 'index' && (key+1) > indexList.length/2 --><!-- end ngRepeat: (key, file) in indexList --><!-- ngIf: file.name != 'index' && (key+1) > indexList.length/2 --><li class="col-xs-12 ng-scope" data-ng-repeat="(key, file) in indexList" data-ng-if="file.name != 'index' &amp;&amp; (key+1) &gt; indexList.length/2">
+          <a href=./v0/available-commands/status.html class="col-xs-12 ng-binding"> status</a>
+        </li><!-- end ngIf: file.name != 'index' && (key+1) > indexList.length/2 --><!-- end ngRepeat: (key, file) in indexList --><!-- ngIf: file.name != 'index' && (key+1) > indexList.length/2 --><!-- end ngRepeat: (key, file) in indexList -->
+      </ul>
+    </div>
+  </div>
+</div><!-- end ngIf: index -->
+</div>
 
   <script type="text/javascript" src="./docbase-config.js"></script>
   <script type="text/javascript" src="./bower_components/docbase/dist/js/main.unique.js"></script>

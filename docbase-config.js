@@ -15,7 +15,7 @@ var docbaseConfig = {
     "access_token": "ODM5ZjE4ZmE0NzRmNzY5ZmE3MzIyMTQzM2Y0MWJkYmYyZTJkMjM4ZQ=="
   },
   "indexHtml": "./html/main.html",
-  "flatdocHtml": "./bower_components/docbase/html/flatdoc.html",
+  "flatdocHtml": "./html/flatdoc.html",
   "default_version": "v0",
   "manual_override": false,
   "versions" : {
@@ -23,6 +23,7 @@ var docbaseConfig = {
       {
         "name": "quick-start",
         "label": "Quick Start",
+        "default": "installation",
         "files": [
           {
             "name": "installation",
@@ -55,6 +56,7 @@ var docbaseConfig = {
       {
         "name": "custom-plugins",
         "label": "Custom Plugins",
+        "default": "custom-plugins",
         "files": [
           {
             "name": "custom-plugins",

@@ -33,7 +33,7 @@
   <div class="collapse navbar-collapse" id="navbar-collapse">
     <div class="pull-left  hidden-xs" id="folder-navbar">
       <ul class="nav navbar-nav folder-li">
-        <!-- ngRepeat: folder in map[currentVersion] --><li class="dropdown ng-scope" ng-repeat="folder in map[currentVersion]">
+        <!-- ngRepeat: folder in map[currentVersion] --><li class="dropdown ng-scope" ng-repeat="folder in map[currentVersion]" style="display: none; ">
           <a ng-href=./v0/quick-start/index.html class="dropdown-toggle map_folder" data-toggle="dropdown" role="button" aria-expanded="false" title="Quick Start" href=./v0/quick-start/index.html>
             <span ng-bind="folder.label" class="link-restrict ng-binding">Quick Start</span>
            </a>
@@ -44,7 +44,7 @@
               <a ng-href=./v0/quick-start/index.html title="index" ng-bind="file.label" class="ng-binding" href=./v0/quick-start/index.html>index</a>
             </li><!-- end ngRepeat: file in folder.files -->
           </ul>
-        </li><!-- end ngRepeat: folder in map[currentVersion] --><li class="dropdown ng-scope" ng-repeat="folder in map[currentVersion]">
+        </li><!-- end ngRepeat: folder in map[currentVersion] --><li class="dropdown ng-scope" ng-repeat="folder in map[currentVersion]" style="display: none; ">
           <a ng-href=./v0/available-commands/index.html class="dropdown-toggle map_folder" data-toggle="dropdown" role="button" aria-expanded="false" title="Commands" href=./v0/available-commands/index.html>
             <span ng-bind="folder.label" class="link-restrict ng-binding">Commands</span>
            </a>
@@ -61,7 +61,7 @@
               <a ng-href=./v0/available-commands/index.html title="index" ng-bind="file.label" class="ng-binding" href=./v0/available-commands/index.html>index</a>
             </li><!-- end ngRepeat: file in folder.files -->
           </ul>
-        </li><!-- end ngRepeat: folder in map[currentVersion] --><li class="dropdown ng-scope" ng-repeat="folder in map[currentVersion]">
+        </li><!-- end ngRepeat: folder in map[currentVersion] --><li class="dropdown ng-scope" ng-repeat="folder in map[currentVersion]" style="display: none; ">
           <a ng-href=./v0/custom-plugins/index.html class="dropdown-toggle map_folder" data-toggle="dropdown" role="button" aria-expanded="false" title="Custom Plugins" href=./v0/custom-plugins/index.html>
             <span ng-bind="folder.label" class="link-restrict ng-binding">Custom Plugins</span>
            </a>
@@ -74,7 +74,7 @@
           </ul>
         </li><!-- end ngRepeat: folder in map[currentVersion] -->
       </ul>
-      <ul class="nav navbar-nav category-li">
+      <ul class="nav navbar-nav category-li" style="display: block; ">
         <li class="dropdown menu-large">
           <a class="dropdown-toggle pointer" data-toggle="dropdown">more <b class="caret"></b></a>
           <ul class="dropdown-menu megamenu row">
@@ -125,7 +125,7 @@
     <div class="pull-right" id="other-navs">
       <ul class="nav navbar-nav navbar-right">
          <li class="dropdown search-dropdown">
-          <div class="form-group search-form" data-ng-class="{'open-in':search.length &gt; 0}"><input class="search_field form-control dropdown-toggle appbase-search" type="text" placeholder="search"></div>
+          <div class="form-group search-form" data-ng-class="{'open-in':search.length &gt; 0}" style="right: 50px; "><input class="search_field form-control dropdown-toggle appbase-search" type="text" placeholder="search"></div>
         </li>
         <li class="dropdown  hidden-xs">
           <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -216,7 +216,7 @@
 </nav>
 <div role="flatdoc" class="content-root ng-scope" data-ng-show="!index">
   <div class="menubar fixed">
-    <div class="menu section" role="flatdoc-menu"><ul><li id="root-item" class="level-0"><ul class="level-1" id="root-list"><li id="plugins-action-plugin-item" class="level-1"><a id="plugins-action-plugin-link" href="./v0/available-commands/plugins.html#plugins-action-plugin" class="level-1" pref="#plugins-action-plugin">plugins [action] [plugin]</a><ul class="level-2" id="plugins-action-plugin-list"><li id="plugins-action-plugin-arguments-item" class="level-2"><a id="plugins-action-plugin-arguments-link" href="./v0/available-commands/plugins.html#plugins-action-plugin-arguments" class="level-2" pref="#plugins-action-plugin-arguments">Arguments</a></li><li id="plugins-action-plugin-example-item" class="level-2"><a id="plugins-action-plugin-example-link" href="./v0/available-commands/plugins.html#plugins-action-plugin-example" class="level-2" pref="#plugins-action-plugin-example">Example</a></li></ul></li></ul></li></ul></div>
+  <div class="menu section" role="flatdoc-menu"><ul><li id="root-item" class="level-0"><ul class="level-1" id="root-list"><li id="plugins-action-plugin-item" class="level-1"><a id="plugins-action-plugin-link" href="./v0/available-commands/plugins.html#plugins-action-plugin" class="level-1" pref="#plugins-action-plugin">plugins [action] [plugin]</a><ul class="level-2" id="plugins-action-plugin-list"><li id="plugins-action-plugin-arguments-item" class="level-2"><a id="plugins-action-plugin-arguments-link" href="./v0/available-commands/plugins.html#plugins-action-plugin-arguments" class="level-2" pref="#plugins-action-plugin-arguments">Arguments</a></li><li id="plugins-action-plugin-example-item" class="level-2"><a id="plugins-action-plugin-example-link" href="./v0/available-commands/plugins.html#plugins-action-plugin-example" class="level-2" pref="#plugins-action-plugin-example">Example</a></li></ul></li></ul></li></ul></div>
   </div>
   <div role="flatdoc-content" class="content"><div class="extra_container"></div><div class="clearFix"></div><h1 id="plugins-action-plugin">plugins [action] [plugin]</h1><p>Interact with native dependencies.</p><h2 id="plugins-action-plugin-arguments">Arguments</h2><ul>
 <li><strong>action</strong>: Can be one of: <code>add</code>, <code>rm</code>, and <code>ls</code>.</li>
@@ -224,20 +224,21 @@
 </ul><h2 id="plugins-action-plugin-example">Example</h2><pre><code class="lang-bash prettyprint prettyprinted" style=""><span class="pln">$ rsx plugins add react</span><span class="pun">-</span><span class="pln">native</span><span class="pun">-</span><span class="pln">module
 $ rsx plugins rm react</span><span class="pun">-</span><span class="pln">native</span><span class="pun">-</span><span class="pln">module
 $ rsx plugins ls</span></code></pre><p>Source: <a href="https://github.com/react-native-contrib/rsx-plugin-plugins">https://github.com/react-native-contrib/rsx-plugin-plugins</a></p></div>
-  	<div class="footer content">
-		<div class="row">
-			<div class="col-xs-12">	
-				<span data-ng-class="{disabled: paginationLinks.prev == null}" class="pull-left">
-					<a href=./v0/available-commands/platforms.html class="paginationLink pull-left">Previous</a>
-				</span>
-				<span data-ng-class="{disabled: paginationLinks.next == null}" class="pull-right">
-					<a href=./v0/available-commands/status.html class="paginationLink pull-right">Next</a>
-				</span>
-			</div>
-		</div>
-	</div>
+  <div class="footer content">
+    <div class="row">
+      <div class="col-xs-12">
+        <span data-ng-class="{disabled: paginationLinks.prev == null}" class="pull-left">
+          <a href=./v0/available-commands/platforms.html class="paginationLink pull-left">Previous</a>
+        </span>
+        <span data-ng-class="{disabled: paginationLinks.next == null}" class="pull-right">
+          <a href=./v0/available-commands/status.html class="paginationLink pull-right">Next</a>
+        </span>
+      </div>
+    </div>
+  </div>
 </div>
-<!-- ngIf: index --></div>
+<!-- ngIf: index -->
+</div>
 
   <script type="text/javascript" src="./docbase-config.js"></script>
   <script type="text/javascript" src="./bower_components/docbase/dist/js/main.unique.js"></script>
