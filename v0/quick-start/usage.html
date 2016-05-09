@@ -17,7 +17,7 @@
   <link rel="stylesheet" type="text/css" href="./styles/theme.css">
 
 <script type="text/javascript" async="" src="http://twitter.github.io/typeahead.js/releases/latest/typeahead.bundle.js"></script></head>
-<body role="flatdoc">
+<body role="flatdoc" class="no-literate">
   <!-- ngView:  --><div ng-view="" class="ng-scope"><!-- ngInclude: navbarHtml --><nav class="navbar navbar-default navbar-fixed-top ng-scope" ng-include="navbarHtml"><div class="container-fluid ng-scope">
   <div class="navbar-header">
     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
@@ -33,7 +33,7 @@
   <div class="collapse navbar-collapse" id="navbar-collapse">
     <div class="pull-left  hidden-xs" id="folder-navbar">
       <ul class="nav navbar-nav folder-li">
-        <!-- ngRepeat: folder in map[currentVersion] --><li class="dropdown ng-scope" ng-repeat="folder in map[currentVersion]" style="display: none; ">
+        <!-- ngRepeat: folder in map[currentVersion] --><li class="dropdown ng-scope" ng-repeat="folder in map[currentVersion]">
           <a ng-href=./v0/quick-start/index.html class="dropdown-toggle map_folder" data-toggle="dropdown" role="button" aria-expanded="false" title="Quick Start" href=./v0/quick-start/index.html>
             <span ng-bind="folder.label" class="link-restrict ng-binding">Quick Start</span>
            </a>
@@ -46,7 +46,7 @@
               <a ng-href=./v0/quick-start/index.html title="index" ng-bind="file.label" class="ng-binding" href=./v0/quick-start/index.html>index</a>
             </li><!-- end ngRepeat: file in folder.files -->
           </ul>
-        </li><!-- end ngRepeat: folder in map[currentVersion] --><li class="dropdown ng-scope" ng-repeat="folder in map[currentVersion]" style="display: none; ">
+        </li><!-- end ngRepeat: folder in map[currentVersion] --><li class="dropdown ng-scope" ng-repeat="folder in map[currentVersion]">
           <a ng-href=./v0/available-commands/index.html class="dropdown-toggle map_folder" data-toggle="dropdown" role="button" aria-expanded="false" title="Commands" href=./v0/available-commands/index.html>
             <span ng-bind="folder.label" class="link-restrict ng-binding">Commands</span>
            </a>
@@ -63,7 +63,7 @@
               <a ng-href=./v0/available-commands/index.html title="index" ng-bind="file.label" class="ng-binding" href=./v0/available-commands/index.html>index</a>
             </li><!-- end ngRepeat: file in folder.files -->
           </ul>
-        </li><!-- end ngRepeat: folder in map[currentVersion] --><li class="dropdown ng-scope" ng-repeat="folder in map[currentVersion]" style="display: none; ">
+        </li><!-- end ngRepeat: folder in map[currentVersion] --><li class="dropdown ng-scope" ng-repeat="folder in map[currentVersion]">
           <a ng-href=./v0/custom-plugins/index.html class="dropdown-toggle map_folder" data-toggle="dropdown" role="button" aria-expanded="false" title="Custom Plugins" href=./v0/custom-plugins/index.html>
             <span ng-bind="folder.label" class="link-restrict ng-binding">Custom Plugins</span>
            </a>
@@ -78,7 +78,7 @@
           </ul>
         </li><!-- end ngRepeat: folder in map[currentVersion] -->
       </ul>
-      <ul class="nav navbar-nav category-li" style="display: block; ">
+      <ul class="nav navbar-nav category-li">
         <li class="dropdown menu-large">
           <a class="dropdown-toggle pointer" data-toggle="dropdown">more <b class="caret"></b></a>
           <ul class="dropdown-menu megamenu row">
@@ -133,7 +133,7 @@
     <div class="pull-right" id="other-navs">
       <ul class="nav navbar-nav navbar-right">
          <li class="dropdown search-dropdown">
-          <div class="form-group search-form" data-ng-class="{'open-in':search.length &gt; 0}" style="right: 50px; "><input class="search_field form-control dropdown-toggle appbase-search" type="text" placeholder="search"></div>
+          <div class="form-group search-form" data-ng-class="{'open-in':search.length &gt; 0}"><input class="search_field form-control dropdown-toggle appbase-search" type="text" placeholder="search"></div>
         </li>
         <li class="dropdown  hidden-xs">
           <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -226,45 +226,26 @@
   </div><!-- /.navbar-collapse -->
 </div><!-- /.container-fluid -->
 </nav>
-<div role="flatdoc" class="content-root ng-scope ng-hide" data-ng-show="!index">
-  <div class="menubar">
-  <div class="menu section" role="flatdoc-menu"></div>
+<div role="flatdoc" class="content-root ng-scope" data-ng-show="!index">
+  <div class="menubar fixed">
+  <div class="menu section" role="flatdoc-menu"><ul><li id="root-item" class="level-0"><ul class="level-1" id="root-list"><li id="usage-item" class="level-1"><a id="usage-link" href="./v0/quick-start/usage.html#usage" class="level-1" pref="#usage">Usage</a><ul class="level-2" id="usage-list"><li id="usage-creating-a-new-project-item" class="level-2"><a id="usage-creating-a-new-project-link" href="./v0/quick-start/usage.html#usage-creating-a-new-project" class="level-2" pref="#usage-creating-a-new-project">Creating a new project</a></li><li id="usage-adding-a-platform-item" class="level-2"><a id="usage-adding-a-platform-link" href="./v0/quick-start/usage.html#usage-adding-a-platform" class="level-2" pref="#usage-adding-a-platform">Adding a platform</a></li><li id="usage-running-a-project-item" class="level-2"><a id="usage-running-a-project-link" href="./v0/quick-start/usage.html#usage-running-a-project" class="level-2" pref="#usage-running-a-project">Running a project</a></li></ul></li></ul></li></ul></div>
   </div>
-  <div role="flatdoc-content" class="content"></div>
+  <div role="flatdoc-content" class="content"><div class="extra_container"></div><div class="clearFix"></div><h1 id="usage">Usage</h1><h2 id="usage-creating-a-new-project">Creating a new project</h2><p>Creating a new React Native project is as simple as:</p><pre><code class="lang-bash prettyprint prettyprinted" style=""><span class="pln">$ rsx new </span><span class="typ">AwesomeApp</span></code></pre><p>This will create a folder called <code>AwesomeApp</code> within the current directory, and then create a React Native project with iOS and Android projects by default.</p><h2 id="usage-adding-a-platform">Adding a platform</h2><pre><code class="lang-bash prettyprint prettyprinted" style=""><span class="pln">$ rsx platforms add android</span></code></pre><h2 id="usage-running-a-project">Running a project</h2><pre><code class="lang-bash prettyprint prettyprinted" style=""><span class="pln">$ rsx run ios
+$ rsx run android</span></code></pre></div>
   <div class="footer content">
     <div class="row">
       <div class="col-xs-12">
-        <span data-ng-class="{disabled: paginationLinks.prev == null}" class="pull-left disabled">
-          <a href="" class="paginationLink pull-left">Previous</a>
+        <span data-ng-class="{disabled: paginationLinks.prev == null}" class="pull-left">
+          <a href=./v0/quick-start/installation.html class="paginationLink pull-left">Previous</a>
         </span>
-        <span data-ng-class="{disabled: paginationLinks.next == null}" class="pull-right disabled">
-          <a href="" class="paginationLink pull-right">Next</a>
+        <span data-ng-class="{disabled: paginationLinks.next == null}" class="pull-right">
+          <a href=./v0/available-commands/new.html class="paginationLink pull-right">Next</a>
         </span>
       </div>
     </div>
   </div>
 </div>
-<!-- ngIf: index --><div class="index-container ng-scope" data-ng-if="index">
-  <div class="container">
-    <div class="row">
-      <h1 class="col-xs-12 ng-binding">
-        custom-plugins (2 files)
-      </h1>
-    </div>
-    <div class="row indexLinkContainer">
-      <ul class="col-xs-12 col-sm-6">
-        <!-- ngRepeat: (key, file) in indexList --><!-- ngIf: file.name != 'index' && (key+1) <= indexList.length/2 --><li class="col-xs-12 ng-scope" data-ng-repeat="(key, file) in indexList" data-ng-if="file.name != 'index' &amp;&amp; (key+1) &lt;= indexList.length/2">
-          <a href=./v0/custom-plugins/common-package.html class="col-xs-12 ng-binding"> common-package</a>
-        </li><!-- end ngIf: file.name != 'index' && (key+1) <= indexList.length/2 --><!-- end ngRepeat: (key, file) in indexList --><!-- ngIf: file.name != 'index' && (key+1) <= indexList.length/2 --><!-- end ngRepeat: (key, file) in indexList --><!-- ngIf: file.name != 'index' && (key+1) <= indexList.length/2 --><!-- end ngRepeat: (key, file) in indexList -->
-      </ul>
-      <ul class="col-xs-12 col-sm-6">
-        <!-- ngRepeat: (key, file) in indexList --><!-- ngIf: file.name != 'index' && (key+1) > indexList.length/2 --><!-- end ngRepeat: (key, file) in indexList --><!-- ngIf: file.name != 'index' && (key+1) > indexList.length/2 --><li class="col-xs-12 ng-scope" data-ng-repeat="(key, file) in indexList" data-ng-if="file.name != 'index' &amp;&amp; (key+1) &gt; indexList.length/2">
-          <a href=./v0/custom-plugins/custom-plugins.html class="col-xs-12 ng-binding"> custom-plugins</a>
-        </li><!-- end ngIf: file.name != 'index' && (key+1) > indexList.length/2 --><!-- end ngRepeat: (key, file) in indexList --><!-- ngIf: file.name != 'index' && (key+1) > indexList.length/2 --><!-- end ngRepeat: (key, file) in indexList -->
-      </ul>
-    </div>
-  </div>
-</div><!-- end ngIf: index -->
+<!-- ngIf: index -->
 </div>
 
   <script type="text/javascript" src="./docbase-config.js"></script>

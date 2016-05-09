@@ -27,7 +27,11 @@ var docbaseConfig = {
         "files": [
           {
             "name": "installation",
-            "label": "Installation and Usage"
+            "label": "Installation"
+          },
+          {
+            "name": "usage",
+            "label": "Usage"
           },
         ]
       },
@@ -58,6 +62,10 @@ var docbaseConfig = {
         "label": "Custom Plugins",
         "default": "custom-plugins",
         "files": [
+          {
+            "name": "common-package",
+            "label": "Common Package"
+          },
           {
             "name": "custom-plugins",
             "label": "Custom Plugins"
