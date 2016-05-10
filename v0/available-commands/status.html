@@ -64,16 +64,16 @@
             </li><!-- end ngRepeat: file in folder.files -->
           </ul>
         </li><!-- end ngRepeat: folder in map[currentVersion] --><li class="dropdown ng-scope" ng-repeat="folder in map[currentVersion]" style="display: none; ">
-          <a ng-href=./v0/custom-plugins/index.html class="dropdown-toggle map_folder" data-toggle="dropdown" role="button" aria-expanded="false" title="Custom Plugins" href=./v0/custom-plugins/index.html>
-            <span ng-bind="folder.label" class="link-restrict ng-binding">Custom Plugins</span>
+          <a ng-href=./v0/development/index.html class="dropdown-toggle map_folder" data-toggle="dropdown" role="button" aria-expanded="false" title="Development" href=./v0/development/index.html>
+            <span ng-bind="folder.label" class="link-restrict ng-binding">Development</span>
            </a>
           <ul class="dropdown-menu">
             <!-- ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope">
-              <a ng-href=./v0/custom-plugins/common-package.html title="Common Package" ng-bind="file.label" class="ng-binding" href=./v0/custom-plugins/common-package.html>Common Package</a>
+              <a ng-href=./v0/development/common-package.html title="Common Package" ng-bind="file.label" class="ng-binding" href=./v0/development/common-package.html>Common Package</a>
             </li><!-- end ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope">
-              <a ng-href=./v0/custom-plugins/custom-plugins.html title="Custom Plugins" ng-bind="file.label" class="ng-binding" href=./v0/custom-plugins/custom-plugins.html>Custom Plugins</a>
+              <a ng-href=./v0/development/custom-plugins.html title="Custom Plugins" ng-bind="file.label" class="ng-binding" href=./v0/development/custom-plugins.html>Custom Plugins</a>
             </li><!-- end ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope ng-hide">
-              <a ng-href=./v0/custom-plugins/index.html title="index" ng-bind="file.label" class="ng-binding" href=./v0/custom-plugins/index.html>index</a>
+              <a ng-href=./v0/development/index.html title="index" ng-bind="file.label" class="ng-binding" href=./v0/development/index.html>index</a>
             </li><!-- end ngRepeat: file in folder.files -->
           </ul>
         </li><!-- end ngRepeat: folder in map[currentVersion] -->
@@ -115,14 +115,14 @@
             </li><!-- end ngRepeat: folder in map[currentVersion] --><li class="col-sm-3 megamenu-item ng-scope" ng-repeat="folder in map[currentVersion]">
               <ul>
                 <li class="dropdown-header">
-                  <a ng-href=./v0/custom-plugins/index.html class="map_folder ng-binding" data-toggle="dropdown" role="button" aria-expanded="false" ng-bind="folder.label" title="Custom Plugins" href=./v0/custom-plugins/index.html>Custom Plugins</a>
+                  <a ng-href=./v0/development/index.html class="map_folder ng-binding" data-toggle="dropdown" role="button" aria-expanded="false" ng-bind="folder.label" title="Development" href=./v0/development/index.html>Development</a>
                 </li>
                 <!-- ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope">
-                  <a ng-href=./v0/custom-plugins/common-package.html title="Common Package" ng-bind="file.label" class="ng-binding" href=./v0/custom-plugins/common-package.html>Common Package</a>
+                  <a ng-href=./v0/development/common-package.html title="Common Package" ng-bind="file.label" class="ng-binding" href=./v0/development/common-package.html>Common Package</a>
                 </li><!-- end ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope">
-                  <a ng-href=./v0/custom-plugins/custom-plugins.html title="Custom Plugins" ng-bind="file.label" class="ng-binding" href=./v0/custom-plugins/custom-plugins.html>Custom Plugins</a>
+                  <a ng-href=./v0/development/custom-plugins.html title="Custom Plugins" ng-bind="file.label" class="ng-binding" href=./v0/development/custom-plugins.html>Custom Plugins</a>
                 </li><!-- end ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope ng-hide">
-                  <a ng-href=./v0/custom-plugins/index.html title="index" ng-bind="file.label" class="ng-binding" href=./v0/custom-plugins/index.html>index</a>
+                  <a ng-href=./v0/development/index.html title="index" ng-bind="file.label" class="ng-binding" href=./v0/development/index.html>index</a>
                 </li><!-- end ngRepeat: file in folder.files -->
               </ul>
             </li><!-- end ngRepeat: folder in map[currentVersion] -->
@@ -133,7 +133,7 @@
     <div class="pull-right" id="other-navs">
       <ul class="nav navbar-nav navbar-right">
          <li class="dropdown search-dropdown">
-          <div class="form-group search-form" data-ng-class="{'open-in':search.length &gt; 0}" style="right: 50px; "><span class="twitter-typeahead" style="position: relative; display: inline-block; "><input class="search_field form-control dropdown-toggle appbase-search tt-hint" type="text" style="position: absolute; top: 0px; left: 0px; border-top-color: transparent; border-right-color: transparent; border-bottom-color: transparent; border-left-color: transparent; box-shadow: none; opacity: 1; background-attachment: scroll; background-clip: border-box; background-color: rgb(255, 255, 255); background-image: none; background-origin: padding-box; background-size:  ; background-position: 0% 0%; background-repeat: repeat repeat; " readonly="" autocomplete="off" spellcheck="false" tabindex="-1" dir="ltr"><input class="search_field form-control dropdown-toggle appbase-search tt-input" type="text" placeholder="search" autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top; background-color: transparent; "><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: 'Helvetica Neue', 'Open Sans', sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none; "></pre><div class="tt-menu" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none; "><div class="tt-dataset tt-dataset-titles"></div></div></span></div>
+          <div class="form-group search-form" data-ng-class="{'open-in':search.length &gt; 0}" style="right: 50px; "><input class="search_field form-control dropdown-toggle appbase-search" type="text" placeholder="search"></div>
         </li>
         <li class="dropdown  hidden-xs">
           <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -206,14 +206,14 @@
                 </li><!-- end ngRepeat: folder in map[currentVersion] --><li class="col-sm-3 megamenu-item ng-scope" ng-repeat="folder in map[currentVersion]">
                   <ul>
                     <li class="dropdown-header">
-                      <a ng-href=./v0/custom-plugins/index.html class="map_folder ng-binding" data-toggle="dropdown" role="button" aria-expanded="false" ng-bind="folder.label" title="Custom Plugins" href=./v0/custom-plugins/index.html>Custom Plugins</a>
+                      <a ng-href=./v0/development/index.html class="map_folder ng-binding" data-toggle="dropdown" role="button" aria-expanded="false" ng-bind="folder.label" title="Development" href=./v0/development/index.html>Development</a>
                     </li>
                     <!-- ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope">
-                      <a ng-href=./v0/custom-plugins/common-package.html title="Common Package" ng-bind="file.label" class="ng-binding" href=./v0/custom-plugins/common-package.html>Common Package</a>
+                      <a ng-href=./v0/development/common-package.html title="Common Package" ng-bind="file.label" class="ng-binding" href=./v0/development/common-package.html>Common Package</a>
                     </li><!-- end ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope">
-                      <a ng-href=./v0/custom-plugins/custom-plugins.html title="Custom Plugins" ng-bind="file.label" class="ng-binding" href=./v0/custom-plugins/custom-plugins.html>Custom Plugins</a>
+                      <a ng-href=./v0/development/custom-plugins.html title="Custom Plugins" ng-bind="file.label" class="ng-binding" href=./v0/development/custom-plugins.html>Custom Plugins</a>
                     </li><!-- end ngRepeat: file in folder.files --><li ng-repeat="file in folder.files" data-ng-hide="file.name == 'index'" class="ng-scope ng-hide">
-                      <a ng-href=./v0/custom-plugins/index.html title="index" ng-bind="file.label" class="ng-binding" href=./v0/custom-plugins/index.html>index</a>
+                      <a ng-href=./v0/development/index.html title="index" ng-bind="file.label" class="ng-binding" href=./v0/development/index.html>index</a>
                     </li><!-- end ngRepeat: file in folder.files -->
                   </ul>
                 </li><!-- end ngRepeat: folder in map[currentVersion] -->
@@ -238,7 +238,7 @@
           <a href=./v0/available-commands/plugins.html class="paginationLink pull-left">Previous</a>
         </span>
         <span data-ng-class="{disabled: paginationLinks.next == null}" class="pull-right">
-          <a href=./v0/custom-plugins/common-package.html class="paginationLink pull-right">Next</a>
+          <a href=./v0/development/common-package.html class="paginationLink pull-right">Next</a>
         </span>
       </div>
     </div>
