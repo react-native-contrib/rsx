@@ -12,13 +12,13 @@ updateNotifier({ pkg }).notify();
 cli.version(pkg.version);
 
 const addCommand = (command) => {
-  cli
-    .command(command.name)
-    .usage(command.usage)
-    .description(command.description)
-    .action(function runAction() {
-      command.func(arguments);
-    });
+    cli
+        .command(command.name)
+        .usage(command.usage)
+        .description(command.description)
+        .action(function runAction() {
+            command.func(arguments);
+        });
 }
 
 flatten(commands).forEach(addCommand);

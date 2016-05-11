@@ -12,19 +12,19 @@ const flatten = require('lodash').flatten;
 const isPlugin = (dependency) => !!~dependency.indexOf('rsx-plugin-');
 
 const findPluginInFolder = (folder) => {
-  var pjson;
-  try {
-    pjson = require(path.join(folder, 'package.json'));
-  } catch (e) {
-    return [];
-  }
+    var pjson;
+    try {
+        pjson = require(path.join(folder, 'package.json'));
+    } catch (e) {
+        return [];
+    }
 
-  const deps = union(
-    Object.keys(pjson.dependencies || {}),
-    Object.keys(pjson.devDependencies || {})
-  );
+    const deps = union(
+        Object.keys(pjson.dependencies || {}),
+        Object.keys(pjson.devDependencies || {})
+    );
 
-  return deps.filter(isPlugin);
+    return deps.filter(isPlugin);
 };
 
 /**
@@ -33,5 +33,5 @@ const findPluginInFolder = (folder) => {
  * @type  {Array}         Array of plugins or an empty array if no package.json found
  */
 module.exports = function findPlugins(folders) {
-  return uniq(flatten(folders.map(findPluginInFolder)));
+    return uniq(flatten(folders.map(findPluginInFolder)));
 };
