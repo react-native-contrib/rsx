@@ -21,3 +21,31 @@ Inspired by the `cordova` tool and motivated by how crap the `react-native` CLI 
 ## Documentation
 
 All documentation is available at this project's [GitHub pages](http://react-native-contrib.github.io/rsx/).
+
+## Plugins
+
+### Common
+
+| Name | Version | Status |
+|---|---|---|
+| rsx-common | [![npm version][ico-npm-rsx-common]][link-npm-rsx-common] | [![Travis CI][ico-travis-rsx-common]][link-travis-rsx-common] |
+
+### Core
+| Name | Version | Status |
+|---|---|---|
+| rsx-plugin-status | [![npm version][ico-npm-rsx-status]][link-npm-rsx-status] | [![Travis CI][ico-travis-rsx-status]][link-travis-rsx-status] |
+
+
+### Addon
+
+
+[ico-npm-rsx-common]
+: https://img.shields.io/npm/v/rsx-common.svg?style=flat-square
+[link-npm-rsx-common]: https://www.npmjs.com/package/rsx-common
+[ico-travis-rsx-common]: https://img.shields.io/travis/react-native-contrib/rsx-common/master.svg?style=flat-square
+[link-travis-rsx-common]: https://travis-ci.org/react-native-contrib/rsx-common
+
+[ico-npm-rsx-status]: https://img.shields.io/npm/v/rsx-plugin-status.svg?style=flat-square
+[link-npm-rsx-status]: https://www.npmjs.com/package/rsx-plugin-status
+[ico-travis-rsx-status]: https://img.shields.io/travis/react-native-contrib/rsx-plugin-status/master.svg?style=flat-square
+[link-travis-rsx-status]: https://travis-ci.org/react-native-contrib/rsx-plugin-status
