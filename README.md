@@ -34,7 +34,7 @@ All documentation is available at this project's [GitHub pages](http://react-nat
 ### Core
 | Name | Version | Status | Coverage
 |---|---|---|---|
-| [rsx-plugin-new][[link-github-rsx-new]] | [![npm version][ico-npm-rsx-new]][link-npm-rsx-new] | [![Travis CI][ico-travis-rsx-new]][link-travis-rsx-new] | [![Code Coverage][ico-code-coverage-rsx-new]][link-code-coverage-rsx-new] |
+| [rsx-plugin-new][[link-github-rsx-new] | [![npm version][ico-npm-rsx-new]][link-npm-rsx-new] | [![Travis CI][ico-travis-rsx-new]][link-travis-rsx-new] | [![Code Coverage][ico-code-coverage-rsx-new]][link-code-coverage-rsx-new] |
 | [rsx-plugin-platforms][link-github-rsx-platforms] | [![npm version][ico-npm-rsx-platforms]][link-npm-rsx-platforms] | [![Travis CI][ico-travis-rsx-platforms]][link-travis-rsx-platforms] | [![Code Coverage][ico-code-coverage-rsx-platforms]][link-code-coverage-rsx-platforms] |
 | [rsx-plugin-plugins][link-github-rsx-plugins] | [![npm version][ico-npm-rsx-plugins]][link-npm-rsx-plugins] | [![Travis CI][ico-travis-rsx-plugins]][link-travis-rsx-plugins] | [![Code Coverage][ico-code-coverage-rsx-plugins]][link-code-coverage-rsx-plugins] |
 | [rsx-plugin-run][link-github-rsx-run] | [![npm version][ico-npm-rsx-run]][link-npm-rsx-run] | [![Travis CI][ico-travis-rsx-run]][link-travis-rsx-run] | [![Code Coverage][ico-code-coverage-rsx-run]][link-code-coverage-rsx-run] |
