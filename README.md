@@ -39,8 +39,7 @@ All documentation is available at this project's [GitHub pages](http://react-nat
 ### Addon
 
 
-[ico-npm-rsx-common]
-: https://img.shields.io/npm/v/rsx-common.svg?style=flat-square
+[ico-npm-rsx-common]: https://img.shields.io/npm/v/rsx-common.svg?style=flat-square
 [link-npm-rsx-common]: https://www.npmjs.com/package/rsx-common
 [ico-travis-rsx-common]: https://img.shields.io/travis/react-native-contrib/rsx-common/master.svg?style=flat-square
 [link-travis-rsx-common]: https://travis-ci.org/react-native-contrib/rsx-common
