@@ -4,9 +4,10 @@
   "description": "A CLI tool for React Native projects",
   "main": "./src/getCommands.js",
   "scripts": {
+    "test": "eslint index.js src/ tests/ && istanbul cover _mocha --recursive tests/"
+  },
   "bin": {
     "rsx": "bin/cli"
-    "test": "eslint index.js src/ tests/ && istanbul cover _mocha --recursive tests/"
   },
   "repository": {
     "type": "git",
