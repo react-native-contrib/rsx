@@ -1,5 +1,3 @@
-# rsx
-
 ![rsx logo](http://react-native-contrib.github.io/rsx/images/logo.png)
 
 [![npm version][ico-npm]][link-npm]
@@ -8,6 +6,8 @@
 [![Code Climate][ico-codeclimate]][link-codeclimate]
 [![Code Coverage][ico-code-coverage]][link-code-coverage]
 [![Dependencies][ico-dependencies]][link-dependencies]
+
+---
 
 **React Starter GearboX** - a CLI tool built to ease your daily React Native development.
 
@@ -29,7 +29,7 @@ All documentation is available at this project's [GitHub pages](http://react-nat
 
 | Name | Version | Status | Coverage |
 |---|---|---|---|
-| rsx-common | [![npm version][ico-npm-rsx-common]][link-npm-rsx-common] | [![Travis CI][ico-travis-rsx-common]][link-travis-rsx-common] | [![Code Coverage][ico-code-coverage-rsx-common]][link-code-coverage-rsx-common] |
+| [rsx-common][link-github-rsx-common] | [![npm version][ico-npm-rsx-common]][link-npm-rsx-common] | [![Travis CI][ico-travis-rsx-common]][link-travis-rsx-common] | [![Code Coverage][ico-code-coverage-rsx-common]][link-code-coverage-rsx-common] |
 
 ### Core
 | Name | Version | Status | Coverage
@@ -51,7 +51,7 @@ All documentation is available at this project's [GitHub pages](http://react-nat
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-
+[link-github-rsx-common]: https://github.com/react-native-contrib/rsx-common
 [ico-npm-rsx-common]: https://img.shields.io/npm/v/rsx-common.svg?style=flat-square
 [link-npm-rsx-common]: https://www.npmjs.com/package/rsx-common
 [ico-travis-rsx-common]: https://img.shields.io/travis/react-native-contrib/rsx-common/master.svg?style=flat-square
@@ -59,6 +59,7 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [ico-code-coverage-rsx-common]: https://img.shields.io/codeclimate/coverage/github/react-native-contrib/rsx-common.svg?style=flat-square
 [link-code-coverage-rsx-common]: https://codeclimate.com/github/react-native-contrib/rsx-common/coverage
 
+[link-github-rsx-new]: https://github.com/react-native-contrib/rsx-plugin-new
 [ico-npm-rsx-new]: https://img.shields.io/npm/v/rsx-plugin-new.svg?style=flat-square
 [link-npm-rsx-new]: https://www.npmjs.com/package/rsx-plugin-new
 [ico-travis-rsx-new]: https://img.shields.io/travis/react-native-contrib/rsx-plugin-new/master.svg?style=flat-square
@@ -66,6 +67,7 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [ico-code-coverage-rsx-new]: https://img.shields.io/codeclimate/coverage/github/react-native-contrib/rsx-plugin-new.svg?style=flat-square
 [link-code-coverage-rsx-new]: https://codeclimate.com/github/react-native-contrib/rsx-plugin-new/coverage
 
+[link-github-rsx-platforms]: https://github.com/react-native-contrib/rsx-plugin-platforms
 [ico-npm-rsx-platforms]: https://img.shields.io/npm/v/rsx-plugin-platforms.svg?style=flat-square
 [link-npm-rsx-platforms]: https://www.npmjs.com/package/rsx-plugin-platforms
 [ico-travis-rsx-platforms]: https://img.shields.io/travis/react-native-contrib/rsx-plugin-platforms/master.svg?style=flat-square
@@ -73,6 +75,7 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [ico-code-coverage-rsx-platforms]: https://img.shields.io/codeclimate/coverage/github/react-native-contrib/rsx-plugin-platforms.svg?style=flat-square
 [link-code-coverage-rsx-platforms]: https://codeclimate.com/github/react-native-contrib/rsx-plugin-platforms/coverage
 
+[link-github-rsx-plugins]: https://github.com/react-native-contrib/rsx-plugin-plugins
 [ico-npm-rsx-plugins]: https://img.shields.io/npm/v/rsx-plugin-plugins.svg?style=flat-square
 [link-npm-rsx-plugins]: https://www.npmjs.com/package/rsx-plugin-plugins
 [ico-travis-rsx-plugins]: https://img.shields.io/travis/react-native-contrib/rsx-plugin-plugins/master.svg?style=flat-square
@@ -80,6 +83,7 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [ico-code-coverage-rsx-plugins]: https://img.shields.io/codeclimate/coverage/github/react-native-contrib/rsx-plugin-plugins.svg?style=flat-square
 [link-code-coverage-rsx-plugins]: https://codeclimate.com/github/react-native-contrib/rsx-plugin-plugins/coverage
 
+[link-github-rsx-run]: https://github.com/react-native-contrib/rsx-plugin-run
 [ico-npm-rsx-run]: https://img.shields.io/npm/v/rsx-plugin-run.svg?style=flat-square
 [link-npm-rsx-run]: https://www.npmjs.com/package/rsx-plugin-run
 [ico-travis-rsx-run]: https://img.shields.io/travis/react-native-contrib/rsx-plugin-run/master.svg?style=flat-square
@@ -87,6 +91,7 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [ico-code-coverage-rsx-run]: https://img.shields.io/codeclimate/coverage/github/react-native-contrib/rsx-plugin-run.svg?style=flat-square
 [link-code-coverage-rsx-run]: https://codeclimate.com/github/react-native-contrib/rsx-plugin-run/coverage
 
+[link-github-rsx-status]: https://github.com/react-native-contrib/rsx-plugin-status
 [ico-npm-rsx-status]: https://img.shields.io/npm/v/rsx-plugin-status.svg?style=flat-square
 [link-npm-rsx-status]: https://www.npmjs.com/package/rsx-plugin-status
 [ico-travis-rsx-status]: https://img.shields.io/travis/react-native-contrib/rsx-plugin-status/master.svg?style=flat-square

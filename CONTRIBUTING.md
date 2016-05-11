@@ -14,7 +14,7 @@ $ git clone https://github.com/<username>/rsx.git && cd $_
 $ npm i
 ```
 
-4. Link rsx so it's available globally
+4. Link `rsx` so it's available globally
 ```bash
 $ npm link
 ```
