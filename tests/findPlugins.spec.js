@@ -4,6 +4,8 @@ const path = require('path');
 
 const expect = chai.expect;
 
+const findPlugins = require('../src/findPlugins');
+
 const pjsonPath = path.join(process.cwd(), 'package.json');
 
 describe('findPlugins', () => {
