@@ -33,7 +33,10 @@ All documentation is available at this project's [GitHub pages](http://react-nat
 ### Core
 | Name | Version | Status |
 |---|---|---|
+| rsx-plugin-new | [![npm version][ico-npm-rsx-new]][link-npm-rsx-new] | [![Travis CI][ico-travis-rsx-new]][link-travis-rsx-new] |
+| rsx-plugin-platforms | [![npm version][ico-npm-rsx-platforms]][link-npm-rsx-platforms] | [![Travis CI][ico-travis-rsx-platforms]][link-travis-rsx-platforms] |
 | rsx-plugin-plugins | [![npm version][ico-npm-rsx-plugins]][link-npm-rsx-plugins] | [![Travis CI][ico-travis-rsx-plugins]][link-travis-rsx-plugins] |
+| rsx-plugin-run | [![npm version][ico-npm-rsx-run]][link-npm-rsx-run] | [![Travis CI][ico-travis-rsx-run]][link-travis-rsx-run] |
 | rsx-plugin-status | [![npm version][ico-npm-rsx-status]][link-npm-rsx-status] | [![Travis CI][ico-travis-rsx-status]][link-travis-rsx-status] |
 
 
@@ -45,10 +48,25 @@ All documentation is available at this project's [GitHub pages](http://react-nat
 [ico-travis-rsx-common]: https://img.shields.io/travis/react-native-contrib/rsx-common/master.svg?style=flat-square
 [link-travis-rsx-common]: https://travis-ci.org/react-native-contrib/rsx-common
 
+[ico-npm-rsx-new]: https://img.shields.io/npm/v/rsx-plugin-new.svg?style=flat-square
+[link-npm-rsx-new]: https://www.npmjs.com/package/rsx-plugin-new
+[ico-travis-rsx-new]: https://img.shields.io/travis/react-native-contrib/rsx-plugin-new/master.svg?style=flat-square
+[link-travis-rsx-new]: https://travis-ci.org/react-native-contrib/rsx-plugin-new
+
+[ico-npm-rsx-platforms]: https://img.shields.io/npm/v/rsx-plugin-platforms.svg?style=flat-square
+[link-npm-rsx-platforms]: https://www.npmjs.com/package/rsx-plugin-platforms
+[ico-travis-rsx-platforms]: https://img.shields.io/travis/react-native-contrib/rsx-plugin-platforms/master.svg?style=flat-square
+[link-travis-rsx-platforms]: https://travis-ci.org/react-native-contrib/rsx-plugin-platforms
+
 [ico-npm-rsx-plugins]: https://img.shields.io/npm/v/rsx-plugin-plugins.svg?style=flat-square
 [link-npm-rsx-plugins]: https://www.npmjs.com/package/rsx-plugin-plugins
 [ico-travis-rsx-plugins]: https://img.shields.io/travis/react-native-contrib/rsx-plugin-plugins/master.svg?style=flat-square
 [link-travis-rsx-plugins]: https://travis-ci.org/react-native-contrib/rsx-plugin-plugins
+
+[ico-npm-rsx-run]: https://img.shields.io/npm/v/rsx-plugin-run.svg?style=flat-square
+[link-npm-rsx-run]: https://www.npmjs.com/package/rsx-plugin-run
+[ico-travis-rsx-run]: https://img.shields.io/travis/react-native-contrib/rsx-plugin-run/master.svg?style=flat-square
+[link-travis-rsx-run]: https://travis-ci.org/react-native-contrib/rsx-plugin-run
 
 [ico-npm-rsx-status]: https://img.shields.io/npm/v/rsx-plugin-status.svg?style=flat-square
 [link-npm-rsx-status]: https://www.npmjs.com/package/rsx-plugin-status
