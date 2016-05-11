@@ -1,0 +1,14 @@
+language: node_js
+
+node_js:
+  - v6
+  - v5
+  - v4
+
+matrix:
+  allow_failures:
+    - node_js: v6
+
+after_script:
+   - npm install codeclimate-test-reporter
+   - node node_modules/.bin/codeclimate-test-reporter < coverage/lcov.info

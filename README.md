@@ -2,11 +2,12 @@
 
 ![rsx logo](http://react-native-contrib.github.io/rsx/images/logo.png)
 
-![npm version](https://img.shields.io/npm/v/rsx.svg)
-![dependencies](https://img.shields.io/david/react-native-contrib/rsx.svg)
-[![Code Climate](https://codeclimate.com/github/react-native-contrib/rsx/badges/gpa.svg)](https://codeclimate.com/github/react-native-contrib/rsx)
-<!-- [![Test Coverage](https://codeclimate.com/github/react-native-contrib/rsx/badges/coverage.svg)](https://codeclimate.com/github/react-native-contrib/rsx/coverage) -->
-<!-- [![Circle CI](https://img.shields.io/circleci/project/rnpm/rnpm/master.svg)](https://circleci.com/gh/rnpm/rnpm) -->
+[![npm version][ico-npm]][link-npm]
+[![License][ico-license]](LICENSE.md)
+[![Travis CI][ico-travis]][link-travis]
+[![Code Climate][ico-codeclimate]][link-codeclimate]
+[![Code Coverage][ico-code-coverage]][link-code-coverage]
+[![Dependencies][ico-dependencies]][link-dependencies]
 
 **React Starter GearboX** - a CLI tool built to ease your daily React Native development.
 
@@ -40,7 +41,15 @@ All documentation is available at this project's [GitHub pages](http://react-nat
 | rsx-plugin-status | [![npm version][ico-npm-rsx-status]][link-npm-rsx-status] | [![Travis CI][ico-travis-rsx-status]][link-travis-rsx-status] |
 
 
-### Addon
+### Addons
+
+| Name | Version | Status |
+|---|---|---|
+|  |  |  |
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
 
 [ico-npm-rsx-common]: https://img.shields.io/npm/v/rsx-common.svg?style=flat-square
@@ -72,3 +81,16 @@ All documentation is available at this project's [GitHub pages](http://react-nat
 [link-npm-rsx-status]: https://www.npmjs.com/package/rsx-plugin-status
 [ico-travis-rsx-status]: https://img.shields.io/travis/react-native-contrib/rsx-plugin-status/master.svg?style=flat-square
 [link-travis-rsx-status]: https://travis-ci.org/react-native-contrib/rsx-plugin-status
+
+[ico-npm]: https://img.shields.io/npm/v/rsx.svg?style=flat-square
+[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/react-native-contrib/rsx/master.svg?style=flat-square
+[ico-codeclimate]: https://img.shields.io/codeclimate/github/react-native-contrib/rsx.svg?style=flat-square
+[ico-code-coverage]: https://img.shields.io/codeclimate/coverage/github/react-native-contrib/rsx.svg?style=flat-square
+[ico-dependencies]: https://img.shields.io/david/react-native-contrib/rsx.svg?style=flat-square
+
+[link-npm]: https://www.npmjs.com/package/rsx
+[link-travis]: https://travis-ci.org/react-native-contrib/rsx
+[link-codeclimate]: https://codeclimate.com/github/react-native-contrib/rsx
+[link-code-coverage]: https://codeclimate.com/github/react-native-contrib/rsx/coverage
+[link-dependencies]: https://david-dm.org/react-native-contrib/rsx

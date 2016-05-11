@@ -140,7 +140,6 @@
         "beforeColon": false,
         "afterColon": true
     }],
-    "keyword-spacing": 2,            // http://eslint.org/docs/rules/keyword-spacing
     "new-cap": [2, {                 // http://eslint.org/docs/rules/new-cap
       "newIsCap": true
     }],
