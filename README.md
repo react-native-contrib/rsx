@@ -13,11 +13,21 @@
 
 ## Rationale
 
-Inspired by the `cordova` tool and motivated by how crap the `react-native` CLI tool is. Also a big shoutout to the rnpm guys, most of the code is cribbed from them.
+Inspired by the `cordova` tool and motivated by the, uhh, *interesting* API of the `react-native` CLI tool. Big shoutouts and love to the `rnpm` and `react-native` peepz, a lot of the code is cribbed from them.
+
+`rsx` aims to one day completely replace the `react-native` CLI tool, leaving the core team to focus on more cooler things :smile:.
 
 ## Requirements
 
 - node >= 4.1
+
+## Installation
+
+```bash
+$ npm install -g rsx
+```
+
+> If you receive an `EACCES: permission denied` error, please [fix NPM's permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions) (bit of a running gag now).
 
 ## Documentation
 

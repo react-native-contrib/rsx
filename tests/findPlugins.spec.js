@@ -1,12 +1,14 @@
-const chai = require('chai');
-const mock = require('mock-require');
-const path = require('path');
+'use strict';
 
-const expect = chai.expect;
+let chai = require('chai');
+let mock = require('mock-require');
+let path = require('path');
 
-const findPlugins = require('../src/findPlugins');
+let expect = chai.expect;
 
-const pjsonPath = path.join(process.cwd(), 'package.json');
+let findPlugins = require('../src/findPlugins');
+
+let pjsonPath = path.join(process.cwd(), 'package.json');
 
 describe('findPlugins', () => {
 

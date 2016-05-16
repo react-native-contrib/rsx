@@ -1,3 +1,5 @@
+'use strict';
+
 exports.single = {
   func: () => {},
   description: 'Test action',

@@ -31,7 +31,7 @@
   "homepage": "https://github.com/react-native-contrib/rsx#readme",
   "dependencies": {
     "commander": "^2.9.0",
-    "lodash": "^3.10.1",
+    "rsx-common": "^0.1.7",
     "rsx-plugin-new": "^0.1.3",
     "rsx-plugin-platforms": "^0.1.3",
     "rsx-plugin-plugins": "^0.1.4",

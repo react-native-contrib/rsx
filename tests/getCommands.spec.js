@@ -1,12 +1,14 @@
-const path = require('path');
-const expect = require('chai').expect;
-const getCommands = require('../src/getCommands');
-const mock = require('mock-require');
-const mockFs = require('mock-fs');
-const sinon = require('sinon');
-const rewire = require('rewire');
+'use strict';
 
-const commands = require('./fixtures/commands');
+let path = require('path');
+let expect = require('chai').expect;
+let getCommands = require('../src/getCommands');
+let mock = require('mock-require');
+let mockFs = require('mock-fs');
+let sinon = require('sinon');
+let rewire = require('rewire');
+
+let commands = require('./fixtures/commands');
 
 /**
  * Paths to two possible `node_modules` locations RSX can be installed

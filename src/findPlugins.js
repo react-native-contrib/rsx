@@ -1,8 +1,11 @@
-const path = require('path');
-const fs = require('fs');
-const union = require('lodash').union;
-const uniq = require('lodash').uniq;
-const flatten = require('lodash').flatten;
+'use strict';
+
+let path = require('path');
+let utils  = require('rsx-common');
+
+let union = utils._.union;
+let unique = utils._.uniq;
+let flatten = utils._.flattenDeep;
 
 /**
  * Filter dependencies by name pattern
@@ -33,5 +36,5 @@ const findPluginInFolder = (folder) => {
  * @type  {Array}         Array of plugins or an empty array if no package.json found
  */
 module.exports = function findPlugins(folders) {
-    return uniq(flatten(folders.map(findPluginInFolder)));
+    return unique(flatten(folders.map(findPluginInFolder)));
 };

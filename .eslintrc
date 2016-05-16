@@ -13,7 +13,7 @@
     "destructuring": true,
     "forOf": true,
     "generators": false,
-    "modules": true,
+    // "modules": true,
     "objectLiteralComputedProperties": true,
     "objectLiteralDuplicateProperties": false,
     "objectLiteralShorthandMethods": true,
@@ -29,7 +29,7 @@
  */
     // babel inserts "use strict"; for us
     // http://eslint.org/docs/rules/strict
-    "strict": [2, "never"],
+    "strict": [2, "global"],
 
 /**
  * ES6
