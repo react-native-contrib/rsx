@@ -37,7 +37,7 @@
     "rsx-plugin-plugins": "^0.1.6",
     "rsx-plugin-run": "^0.1.4",
     "rsx-plugin-status": "^0.1.7",
-    "update-notifier": "^0.6.0"
+    "update-notifier": "^0.7.0"
   },
   "devDependencies": {
     "babel-eslint": "^4.1.5",
