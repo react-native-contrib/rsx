@@ -22,7 +22,7 @@ const findPluginInFolder = (folder) => {
         return [];
     }
 
-    const deps = union(
+    let deps = union(
         Object.keys(pjson.dependencies || {}),
         Object.keys(pjson.devDependencies || {})
     );

@@ -31,12 +31,12 @@
   "homepage": "https://github.com/react-native-contrib/rsx#readme",
   "dependencies": {
     "commander": "^2.9.0",
-    "rsx-common": "^0.1.7",
-    "rsx-plugin-new": "^0.1.3",
-    "rsx-plugin-platforms": "^0.1.3",
-    "rsx-plugin-plugins": "^0.1.4",
-    "rsx-plugin-run": "^0.1.3",
-    "rsx-plugin-status": "^0.1.4",
+    "rsx-common": "^0.1.8",
+    "rsx-plugin-new": "^0.1.5",
+    "rsx-plugin-platforms": "^0.1.7",
+    "rsx-plugin-plugins": "^0.1.6",
+    "rsx-plugin-run": "^0.1.4",
+    "rsx-plugin-status": "^0.1.7",
     "update-notifier": "^0.6.0"
   },
   "devDependencies": {
