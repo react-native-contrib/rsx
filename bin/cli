@@ -1,13 +1,16 @@
 #!/usr/bin/env node --harmony
 
+'use strict';
+
 let cli = require('commander');
 let updateNotifier = require('update-notifier');
 let utils  = require('rsx-common');
+let path = require('path');
 
 let flatten = utils._.flatten;
 
-let commands = require('../src/getCommands')();
-let pkg = require('../package.json');
+let commands = require(path.join(__dirname, '..', 'src', 'getCommands'))();
+let pkg = require(path.join(__dirname, '..', 'package.json'));
 
 updateNotifier({ pkg }).notify();
 
