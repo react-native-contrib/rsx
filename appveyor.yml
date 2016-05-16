@@ -1,0 +1,29 @@
+# Test against this version of Node.js
+environment:
+  matrix:
+    - nodejs_version: "4"
+    - nodejs_version: "5"
+    - nodejs_version: "6"
+
+matrix:
+  allow_failures:
+    - nodejs_version: "6"
+
+# Install scripts. (runs after repo cloning)
+install:
+  # Get the latest stable version of Node.js or io.js
+  - ps: Install-Product node $env:nodejs_version
+  # install modules
+  - npm install
+
+# Post-install test scripts.
+test_script:
+  # Output useful info for debugging.
+  - node --version
+  - npm --version
+  # run tests
+  - node_modules/.bin/eslint index.js src/ tests/
+  - node_modules/.bin/istanbul cover node_modules/mocha/bin/_mocha --recursive tests/
+
+# Don't actually build.
+build: off
