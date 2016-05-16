@@ -4,7 +4,6 @@ let path = require('path');
 let expect = require('chai').expect;
 let getCommands = require('../src/getCommands');
 let mock = require('mock-require');
-let mockFs = require('mock-fs');
 let sinon = require('sinon');
 let rewire = require('rewire');
 
