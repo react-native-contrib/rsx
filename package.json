@@ -1,6 +1,6 @@
 {
   "name": "rsx",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "description": "A CLI tool for React Native projects",
   "main": "./src/getCommands.js",
   "scripts": {
