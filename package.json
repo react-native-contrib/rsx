@@ -35,7 +35,7 @@
     "rsx-plugin-new": "^0.1.6",
     "rsx-plugin-platforms": "^0.1.8",
     "rsx-plugin-plugins": "^0.1.6",
-    "rsx-plugin-run": "^0.1.4",
+    "rsx-plugin-run": "^0.1.5",
     "rsx-plugin-status": "^0.1.7",
     "update-notifier": "^0.7.0"
   },
